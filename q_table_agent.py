@@ -10,17 +10,20 @@ from pysc2.agents import base_agent
 from pysc2.lib import actions
 from pysc2.lib import features
 
+import bot_actions as botact
 import action_constants as act
 import ids.unit_typeid as uid
 
-ACTION_DO_NOTHING = 'donothing'
-ACTION_SELECT_SCV = 'selectscv'
-ACTION_BUILD_SUPPLY_DEPOT = 'buildsupplydepot'
-ACTION_BUILD_BARRACKS = 'buildbarracks'
-ACTION_SELECT_BARRACKS = 'selectbarracks'
-ACTION_BUILD_MARINE = 'buildmarine'
-ACTION_SELECT_ARMY = 'selectarmy'
-ACTION_ATTACK = 'attack'
+from constants import *
+
+ACTION_DO_NOTHING = botact.DO_NOTHING
+ACTION_SELECT_SCV = botact.SELECT_SCV
+ACTION_BUILD_SUPPLY_DEPOT = botact.BUILD_SUPPLY_DEPOT
+ACTION_BUILD_BARRACKS = botact.BUILD_BARRACKS
+ACTION_SELECT_BARRACKS = botact.SELECT_BARRACKS
+ACTION_BUILD_MARINE = botact.BUILD_MARINE
+ACTION_SELECT_ARMY = botact.SELECT_ARMY
+ACTION_ATTACK = botact.ATTACK
 
 smart_actions = [
     ACTION_DO_NOTHING,
@@ -30,20 +33,10 @@ smart_actions = [
     ACTION_SELECT_BARRACKS,
     ACTION_BUILD_MARINE,
     ACTION_SELECT_ARMY,
-    ACTION_ATTACK,
+    # ACTION_ATTACK,
 ]
 
-PLAYER_RELATIVE = features.SCREEN_FEATURES.player_relative.index
-UNIT_TYPE = features.SCREEN_FEATURES.unit_type.index
-PLAYER_ID = features.SCREEN_FEATURES.player_id.index
 
-PLAYER_SELF = 1
-
-NOT_QUEUED = [0]
-QUEUED = [1]
-
-KILL_UNIT_REWARD = 0.2
-KILL_BUILDING_REWARD = 0.5
 
 # Taken from https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow
 class QLearningTable:
@@ -150,63 +143,11 @@ class QTableAgent(base_agent.BaseAgent):
         self.previous_killed_building_score = killed_building_score
         self.previous_state = current_state
         self.previous_action = rl_action
-        
-        if smart_action == ACTION_DO_NOTHING:
-            return actions.FunctionCall(act.NO_OP, [])
+        action = smart_action( obs )
+        if action:
+            return action
+        return actions.FunctionCall(act.NO_OP, [])  
 
-        elif smart_action == ACTION_SELECT_SCV:
-            unit_type = obs.observation['feature_screen'][UNIT_TYPE]
-            unit_y, unit_x = (unit_type == uid.SCV).nonzero()
-                
-            if unit_y.any():
-                i = random.randint(0, len(unit_y) - 1)
-                target = [unit_x[i], unit_y[i]]
-                
-                return actions.FunctionCall(act.SELECT_POINT, [NOT_QUEUED, target])
-        
-        elif smart_action == ACTION_BUILD_SUPPLY_DEPOT:
-            if act.BUILD_SUPPLYDEPOT_SCREEN in obs.observation['available_actions']:
-                unit_type = obs.observation['feature_screen'][UNIT_TYPE]
-                unit_y, unit_x = (unit_type == uid.COMMANDCENTER).nonzero()
-                
-                if unit_y.any():
-                    target = self.transformLocation(int(unit_x.mean()), 0, int(unit_y.mean()), 20)
-                
-                    return actions.FunctionCall(act.BUILD_SUPPLYDEPOT_SCREEN, [NOT_QUEUED, target])
-        
-        elif smart_action == ACTION_BUILD_BARRACKS:
-            if act.BUILD_BARRACKS_SCREEN in obs.observation['available_actions']:
-                unit_type = obs.observation['feature_screen'][UNIT_TYPE]
-                unit_y, unit_x = (unit_type == uid.COMMANDCENTER).nonzero()
-                
-                if unit_y.any():
-                    target = self.transformLocation(int(unit_x.mean()), 20, int(unit_y.mean()), 0)
-            
-                    return actions.FunctionCall(act.BUILD_BARRACKS_SCREEN, [NOT_QUEUED, target])
-    
-        elif smart_action == ACTION_SELECT_BARRACKS:
-            unit_type = obs.observation['feature_screen'][UNIT_TYPE]
-            unit_y, unit_x = (unit_type == uid.BARRACKS).nonzero()
-                
-            if unit_y.any():
-                target = [int(unit_x.mean()), int(unit_y.mean())]
-        
-                return actions.FunctionCall(act.SELECT_POINT, [NOT_QUEUED, target])
-        
-        elif smart_action == ACTION_BUILD_MARINE:
-            if act.TRAIN_MARINE_QUICK in obs.observation['available_actions']:
-                return actions.FunctionCall(act.TRAIN_MARINE_QUICK, [QUEUED])
-        
-        elif smart_action == ACTION_SELECT_ARMY:
-            if act.SELECT_ARMY in obs.observation['available_actions']:
-                return actions.FunctionCall(act.SELECT_ARMY, [NOT_QUEUED])
-        
-        elif smart_action == ACTION_ATTACK:
-            if act.ATTACK_MINIMAP in obs.observation["available_actions"]:
-                if self.base_top_left:
-                    return actions.FunctionCall(act.ATTACK_MINIMAP, [NOT_QUEUED, [39, 45]])
-            
-                return actions.FunctionCall(act.ATTACK_MINIMAP, [NOT_QUEUED, [21, 24]])
-            
-        return actions.FunctionCall(act.NO_OP, [])
+
+
 
