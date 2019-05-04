@@ -1,5 +1,12 @@
 from pysc2.lib import actions
 
+
+
+
+
+
+# Empty lines to make lookup easier
+
 NO_OP = actions.FUNCTIONS.no_op.id
 MOVE_CAMERA = actions.FUNCTIONS.move_camera.id
 SELECT_POINT = actions.FUNCTIONS.select_point.id
