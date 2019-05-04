@@ -1,0 +1,1 @@
+python -m pysc2.bin.agent --map Simple64 --agent q_table_agent.QTableAgent --agent_race terran
