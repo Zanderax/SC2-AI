@@ -21,7 +21,7 @@ QUEUED = [1]
 SUPPLY_USED = 3
 SUPPLY_MAX = 4
 
-class SimpleAgent(base_agent.BaseAgent):
+class ManualAgent(base_agent.BaseAgent):
     base_top_left = None
     supply_depot_built = False
     scv_selected = False
@@ -32,7 +32,7 @@ class SimpleAgent(base_agent.BaseAgent):
     selected = 0
 
     def step(self, obs):
-        super(SimpleAgent, self).step(obs)
+        super(ManualAgent, self).step(obs)
         self.obs = obs
 
         # Figure out starting location by taking the mean position of nearby units
