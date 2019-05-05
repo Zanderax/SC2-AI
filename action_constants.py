@@ -4,8 +4,8 @@ from pysc2.lib import actions
 
 
 
-
-# Empty lines to make lookup easier
+# Empty lines to make manual lookup easier because it starts at line 10
+# Actions are indexed from 0
 
 NO_OP = actions.FUNCTIONS.no_op.id
 MOVE_CAMERA = actions.FUNCTIONS.move_camera.id

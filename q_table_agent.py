@@ -16,24 +16,15 @@ import ids.unit_typeid as uid
 
 from constants import *
 
-ACTION_DO_NOTHING = botact.DO_NOTHING
-ACTION_SELECT_SCV = botact.SELECT_SCV
-ACTION_BUILD_SUPPLY_DEPOT = botact.BUILD_SUPPLY_DEPOT
-ACTION_BUILD_BARRACKS = botact.BUILD_BARRACKS
-ACTION_SELECT_BARRACKS = botact.SELECT_BARRACKS
-ACTION_BUILD_MARINE = botact.BUILD_MARINE
-ACTION_SELECT_ARMY = botact.SELECT_ARMY
-ACTION_ATTACK = botact.ATTACK
-
-smart_actions = [
-    ACTION_DO_NOTHING,
-    ACTION_SELECT_SCV,
-    ACTION_BUILD_SUPPLY_DEPOT,
-    ACTION_BUILD_BARRACKS,
-    ACTION_SELECT_BARRACKS,
-    ACTION_BUILD_MARINE,
-    ACTION_SELECT_ARMY,
-    # ACTION_ATTACK,
+bot_actions = [
+    botact.DO_NOTHING,
+    botact.SELECT_SCV,
+    botact.BUILD_SUPPLY_DEPOT,
+    botact.BUILD_BARRACKS,
+    botact.SELECT_BARRACKS,
+    botact.BUILD_MARINE,
+    botact.SELECT_ARMY,
+    # botact.ATTACK,
 ]
 
 
@@ -84,7 +75,7 @@ class QTableAgent(base_agent.BaseAgent):
     def __init__(self):
         super(QTableAgent, self).__init__()
         
-        self.qlearn = QLearningTable(actions=list(range(len(smart_actions))))
+        self.qlearn = QLearningTable(actions=list(range(len(bot_actions))))
 
         self.previous_killed_unit_score = 0
         self.previous_killed_building_score = 0
@@ -100,7 +91,7 @@ class QTableAgent(base_agent.BaseAgent):
     
     def step(self, obs):
         super(QTableAgent, self).step(obs)
-        # print("obs.observations.keys() - " + str(obs.observation.keys()) )
+
         player_y, player_x = (obs.observation['feature_minimap'][PLAYER_RELATIVE] == PLAYER_SELF).nonzero()
         self.base_top_left = 1 if player_y.any() and player_y.mean() <= 31 else 0
         
@@ -136,16 +127,20 @@ class QTableAgent(base_agent.BaseAgent):
                 
             self.qlearn.learn(str(self.previous_state), self.previous_action, reward, str(current_state))
                 
+        # Update qtable and decide on action
         rl_action = self.qlearn.choose_action(str(current_state))
-        smart_action = smart_actions[rl_action]
+        action = bot_actions[rl_action]
 
+        # Update scores
         self.previous_killed_unit_score = killed_unit_score
         self.previous_killed_building_score = killed_building_score
         self.previous_state = current_state
         self.previous_action = rl_action
-        action = smart_action( obs )
-        if action:
-            return action
+
+        # Create action object to return to pysc2
+        res = action( obs )
+        if res:
+            return res
         return actions.FunctionCall(act.NO_OP, [])  
 
 
