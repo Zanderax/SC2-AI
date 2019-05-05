@@ -24,7 +24,9 @@ bot_actions = [
     botact.SELECT_BARRACKS,
     botact.BUILD_MARINE,
     botact.SELECT_ARMY,
-    # botact.ATTACK,
+    botact.ATTACK,
+    botact.SELECT_COMMANDCENTRE,
+    botact.BUILD_SVC,
 ]
 
 
