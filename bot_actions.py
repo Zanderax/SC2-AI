@@ -58,7 +58,7 @@ def BUILD_BARRACKS( obs ):
         unit_y, unit_x = (unit_type == uid.COMMANDCENTER).nonzero()
         
         if unit_y.any():
-            target = transformLocation(obs, int(unit_x.mean()), random.randint(10,30), int(unit_y.mean()), random.randint(0,20))
+            target = transformLocation(obs, int(unit_x.mean()), random.randint(20,30), int(unit_y.mean()), random.randint(0,20))
 
             return actions.FunctionCall(act.BUILD_BARRACKS_SCREEN, [NOT_QUEUED, target])
     

@@ -84,6 +84,7 @@ class QTableAgent(base_agent.BaseAgent):
 
         self.previous_action = None
         self.previous_state = None
+        self.previous_minerals = 0
 
     def transformLocation(self, x, x_distance, y, y_distance):
         if not self.base_top_left:
@@ -107,6 +108,7 @@ class QTableAgent(base_agent.BaseAgent):
             
         supply_limit = obs.observation['player'][4]
         army_supply = obs.observation['player'][5]
+        minerals = obs.observation['player'][1]
 
         killed_unit_score = obs.observation['score_cumulative'][5]
         killed_building_score = obs.observation['score_cumulative'][6]
@@ -126,6 +128,9 @@ class QTableAgent(base_agent.BaseAgent):
                     
             if killed_building_score > self.previous_killed_building_score:
                 reward += KILL_BUILDING_REWARD
+            
+            if minerals > self.previous_minerals:
+                reward += ( minerals - self.previous_minerals ) / 10
                 
             self.qlearn.learn(str(self.previous_state), self.previous_action, reward, str(current_state))
                 
@@ -138,6 +143,7 @@ class QTableAgent(base_agent.BaseAgent):
         self.previous_killed_building_score = killed_building_score
         self.previous_state = current_state
         self.previous_action = rl_action
+        self.previous_minerals = minerals
 
         # Create action object to return to pysc2
         res = action( obs )
