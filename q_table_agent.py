@@ -24,9 +24,28 @@ bot_actions = [
     botact.SELECT_BARRACKS,
     botact.BUILD_MARINE,
     botact.SELECT_ARMY,
-    botact.ATTACK,
-    botact.SELECT_COMMANDCENTRE,
-    botact.BUILD_SVC,
+    #Attack 0
+    botact.ATTACK_0_0,
+    botact.ATTACK_0_1,
+    botact.ATTACK_0_2,
+    botact.ATTACK_0_3,
+    #Attack 1
+    botact.ATTACK_1_0,
+    botact.ATTACK_1_1,
+    botact.ATTACK_1_2,
+    botact.ATTACK_1_3,
+    #Attack 2
+    botact.ATTACK_2_0,
+    botact.ATTACK_2_1,
+    botact.ATTACK_2_2,
+    botact.ATTACK_2_3,
+    #Attack 3
+    botact.ATTACK_3_0,
+    botact.ATTACK_3_1,
+    botact.ATTACK_3_2,
+    botact.ATTACK_3_3,
+    # botact.SELECT_COMMANDCENTRE,
+    # botact.BUILD_SVC,
 ]
 
 
@@ -85,12 +104,7 @@ class QTableAgent(base_agent.BaseAgent):
         self.previous_action = None
         self.previous_state = None
         self.previous_minerals = 0
-
-    def transformLocation(self, x, x_distance, y, y_distance):
-        if not self.base_top_left:
-            return [x - x_distance, y - y_distance]
-        
-        return [x + x_distance, y + y_distance]
+        self.previous_food_used = 0
     
     def step(self, obs):
         super(QTableAgent, self).step(obs)
@@ -110,8 +124,11 @@ class QTableAgent(base_agent.BaseAgent):
         army_supply = obs.observation['player'][5]
         minerals = obs.observation['player'][1]
 
+        # Food used [0] by army [1]
+        food_used = obs.observation['score_by_category'][0][1]
         killed_unit_score = obs.observation['score_cumulative'][5]
         killed_building_score = obs.observation['score_cumulative'][6]
+
         
         current_state = [
             supply_depot_count,
@@ -124,15 +141,25 @@ class QTableAgent(base_agent.BaseAgent):
             reward = 0
                 
             if killed_unit_score > self.previous_killed_unit_score:
+                print( "Killed unit = " + str(killed_unit_score))
                 reward += KILL_UNIT_REWARD
                     
             if killed_building_score > self.previous_killed_building_score:
+                print( "Killed building  = " + str(killed_building_score))
                 reward += KILL_BUILDING_REWARD
+
+            # Reward and punish when gaining/losing army units
+            if food_used != self.previous_food_used:
+                print( "Food used by army = " + str(food_used))
+                reward += FOOD_REWARD * ( food_used - self.previous_food_used )
             
-            if minerals > self.previous_minerals:
-                reward += ( minerals - self.previous_minerals ) / 10
+            # if minerals > self.previous_minerals:
+            #     reward += ( minerals - self.previous_minerals ) / 10
                 
             self.qlearn.learn(str(self.previous_state), self.previous_action, reward, str(current_state))
+
+            if obs.last():
+                self.qlearn.q_table.to_pickle(DATA_FILE + '.gz', 'gzip')
                 
         # Update qtable and decide on action
         rl_action = self.qlearn.choose_action(str(current_state))
@@ -144,9 +171,10 @@ class QTableAgent(base_agent.BaseAgent):
         self.previous_state = current_state
         self.previous_action = rl_action
         self.previous_minerals = minerals
+        self.previous_food_used = food_used
 
         # Create action object to return to pysc2
-        res = action( obs )
+        res = action( obs, self.base_top_left )
         if res:
             return res
         return actions.FunctionCall(act.NO_OP, [])  
