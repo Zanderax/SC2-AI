@@ -1,1 +1,1 @@
-python -m pysc2.bin.agent --map Simple64 --agent q_table_agent.QTableAgent --agent_race terran
+powershell "python -m pysc2.bin.agent --map Simple64 --agent q_table_agent.QTableAgent --agent_race terran --agent2_race zerg --difficulty easy | tee out.txt"

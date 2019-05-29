@@ -60,7 +60,7 @@ def BUILD_SUPPLY_DEPOT( obs, base_top_left ):
         unit_y, unit_x = (unit_type == uid.COMMANDCENTER).nonzero()
         
         if unit_y.any():
-            target = transformDistance(int(unit_x.mean()), random.randint(0,10), int(unit_y.mean()), random.randint(20,30), base_top_left)
+            target = transformDistance(int(unit_x.mean()), random.randint(0,20), int(unit_y.mean()), random.randint(10,30), base_top_left)
         
             return actions.FunctionCall(act.BUILD_SUPPLYDEPOT_SCREEN, [NOT_QUEUED, target])
         
@@ -70,10 +70,21 @@ def BUILD_BARRACKS( obs, base_top_left ):
         unit_y, unit_x = (unit_type == uid.COMMANDCENTER).nonzero()
         
         if unit_y.any():
-            target = transformDistance(int(unit_x.mean()), random.randint(20,30), int(unit_y.mean()), random.randint(0,10), base_top_left)
+            target = transformDistance(int(unit_x.mean()), random.randint(10,30), int(unit_y.mean()), random.randint(0,20), base_top_left)
 
             return actions.FunctionCall(act.BUILD_BARRACKS_SCREEN, [NOT_QUEUED, target])
-    
+
+def BUILD_REFINERY( obs, base_top_left ):
+     if act.BUILD_REFINERY_SCREEN in obs.observation['available_actions']:
+        unit_type = obs.observation['feature_screen'][UNIT_TYPE]
+        unit_y, unit_x = (unit_type == uid.VESPENEGEYSER).nonzero()
+        if unit_y.any():
+                # Grab a random co-ordinate to select only one refinery
+                i = random.randint(0, len(unit_y) - 1)
+                target = [unit_x[i], unit_y[i]]
+                return actions.FunctionCall(act.BUILD_REFINERY_SCREEN, [NOT_QUEUED, target])
+
+
 def SELECT_BARRACKS( obs, base_top_left ):
     return select_building( obs, uid.BARRACKS )
 

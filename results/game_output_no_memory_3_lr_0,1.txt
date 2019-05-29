@@ -1,0 +1,1019 @@
+I0513 09:43:07.885136  3712 sc2_env.py:462] Starting episode: 167
+I0513 09:44:04.267818  3712 sc2_env.py:632] Episode 167 finished after 17472 game steps. Outcome: [-1], reward: [-1], score: [4715]
+I0513 09:44:08.253821  3712 sc2_env.py:462] Starting episode: 168
+I0513 09:45:34.169824  3712 sc2_env.py:632] Episode 168 finished after 21728 game steps. Outcome: [-1], reward: [-1], score: [5440]
+I0513 09:45:38.062237  3712 sc2_env.py:462] Starting episode: 169
+I0513 09:46:41.815112  3712 sc2_env.py:632] Episode 169 finished after 18568 game steps. Outcome: [-1], reward: [-1], score: [5815]
+I0513 09:46:45.763336  3712 sc2_env.py:462] Starting episode: 170
+I0513 09:47:57.768786  3712 sc2_env.py:632] Episode 170 finished after 21224 game steps. Outcome: [-1], reward: [-1], score: [4620]
+I0513 09:48:01.729829  3712 sc2_env.py:462] Starting episode: 171
+I0513 09:49:02.054938  3712 sc2_env.py:632] Episode 171 finished after 18368 game steps. Outcome: [-1], reward: [-1], score: [4325]
+I0513 09:49:05.940765  3712 sc2_env.py:462] Starting episode: 172
+I0513 09:50:14.922932  3712 sc2_env.py:632] Episode 172 finished after 19160 game steps. Outcome: [-1], reward: [-1], score: [4695]
+I0513 09:50:18.854014  3712 sc2_env.py:462] Starting episode: 173
+I0513 09:51:11.051859  3712 sc2_env.py:632] Episode 173 finished after 16552 game steps. Outcome: [-1], reward: [-1], score: [4100]
+I0513 09:51:15.012393  3712 sc2_env.py:462] Starting episode: 174
+I0513 09:52:08.234336  3712 sc2_env.py:632] Episode 174 finished after 17736 game steps. Outcome: [-1], reward: [-1], score: [4560]
+I0513 09:52:12.134413  3712 sc2_env.py:462] Starting episode: 175
+I0513 09:53:41.884506  3712 sc2_env.py:632] Episode 175 finished after 22360 game steps. Outcome: [-1], reward: [-1], score: [4365]
+I0513 09:53:45.772267  3712 sc2_env.py:462] Starting episode: 176
+I0513 09:54:38.025487  3712 sc2_env.py:632] Episode 176 finished after 16408 game steps. Outcome: [-1], reward: [-1], score: [3745]
+I0513 09:54:41.937355  3712 sc2_env.py:462] Starting episode: 177
+I0513 09:56:04.056593  3712 sc2_env.py:632] Episode 177 finished after 21840 game steps. Outcome: [-1], reward: [-1], score: [4615]
+I0513 09:56:07.955201  3712 sc2_env.py:462] Starting episode: 178
+I0513 09:56:52.973583  3712 sc2_env.py:632] Episode 178 finished after 13488 game steps. Outcome: [-1], reward: [-1], score: [1850]
+I0513 09:56:56.844772  3712 sc2_env.py:462] Starting episode: 179
+I0513 09:57:48.526634  3712 sc2_env.py:632] Episode 179 finished after 14920 game steps. Outcome: [-1], reward: [-1], score: [4070]
+I0513 09:57:52.406063  3712 sc2_env.py:462] Starting episode: 180
+I0513 09:58:58.647066  3712 sc2_env.py:632] Episode 180 finished after 18984 game steps. Outcome: [-1], reward: [-1], score: [6015]
+I0513 09:59:02.555072  3712 sc2_env.py:462] Starting episode: 181
+I0513 10:00:03.829372  3712 sc2_env.py:632] Episode 181 finished after 17968 game steps. Outcome: [-1], reward: [-1], score: [5350]
+I0513 10:00:07.750837  3712 sc2_env.py:462] Starting episode: 182
+I0513 10:00:57.003056  3712 sc2_env.py:632] Episode 182 finished after 15808 game steps. Outcome: [-1], reward: [-1], score: [3050]
+I0513 10:01:00.916183  3712 sc2_env.py:462] Starting episode: 183
+I0513 10:01:51.574076  3712 sc2_env.py:632] Episode 183 finished after 16592 game steps. Outcome: [-1], reward: [-1], score: [3315]
+I0513 10:01:55.530149  3712 sc2_env.py:462] Starting episode: 184
+I0513 10:02:38.072005  3712 sc2_env.py:632] Episode 184 finished after 12272 game steps. Outcome: [-1], reward: [-1], score: [4050]
+I0513 10:02:41.989228  3712 sc2_env.py:462] Starting episode: 185
+I0513 10:03:27.150537  3712 sc2_env.py:632] Episode 185 finished after 14672 game steps. Outcome: [-1], reward: [-1], score: [2565]
+I0513 10:03:31.133101  3712 sc2_env.py:462] Starting episode: 186
+I0513 10:04:09.679059  3712 sc2_env.py:632] Episode 186 finished after 12544 game steps. Outcome: [-1], reward: [-1], score: [3460]
+I0513 10:04:13.667252  3712 sc2_env.py:462] Starting episode: 187
+I0513 10:05:05.679533  3712 sc2_env.py:632] Episode 187 finished after 16056 game steps. Outcome: [-1], reward: [-1], score: [4015]
+I0513 10:05:09.619543  3712 sc2_env.py:462] Starting episode: 188
+I0513 10:06:03.695508  3712 sc2_env.py:632] Episode 188 finished after 16304 game steps. Outcome: [-1], reward: [-1], score: [4090]
+I0513 10:06:07.566892  3712 sc2_env.py:462] Starting episode: 189
+I0513 10:06:54.172549  3712 sc2_env.py:632] Episode 189 finished after 15224 game steps. Outcome: [-1], reward: [-1], score: [3290]
+I0513 10:06:58.069751  3712 sc2_env.py:462] Starting episode: 190
+I0513 10:07:32.662659  3712 sc2_env.py:632] Episode 190 finished after 11920 game steps. Outcome: [-1], reward: [-1], score: [3955]
+I0513 10:07:36.519685  3712 sc2_env.py:462] Starting episode: 191
+I0513 10:08:32.767616  3712 sc2_env.py:632] Episode 191 finished after 17248 game steps. Outcome: [-1], reward: [-1], score: [4855]
+I0513 10:08:36.609987  3712 sc2_env.py:462] Starting episode: 192
+I0513 10:09:20.287195  3712 sc2_env.py:632] Episode 192 finished after 14072 game steps. Outcome: [-1], reward: [-1], score: [3860]
+I0513 10:09:24.197103  3712 sc2_env.py:462] Starting episode: 193
+I0513 10:10:13.411673  3712 sc2_env.py:632] Episode 193 finished after 14600 game steps. Outcome: [-1], reward: [-1], score: [3350]
+I0513 10:10:17.379051  3712 sc2_env.py:462] Starting episode: 194
+I0513 10:10:56.918822  3712 sc2_env.py:632] Episode 194 finished after 13296 game steps. Outcome: [-1], reward: [-1], score: [3905]
+I0513 10:11:00.772251  3712 sc2_env.py:462] Starting episode: 195
+I0513 10:11:49.612309  3712 sc2_env.py:632] Episode 195 finished after 15712 game steps. Outcome: [-1], reward: [-1], score: [4600]
+I0513 10:11:53.538114  3712 sc2_env.py:462] Starting episode: 196
+I0513 10:13:15.232969  3712 sc2_env.py:632] Episode 196 finished after 21384 game steps. Outcome: [-1], reward: [-1], score: [4440]
+I0513 10:13:19.147154  3712 sc2_env.py:462] Starting episode: 197
+I0513 10:14:17.687375  3712 sc2_env.py:632] Episode 197 finished after 17384 game steps. Outcome: [-1], reward: [-1], score: [5090]
+I0513 10:14:21.563390  3712 sc2_env.py:462] Starting episode: 198
+I0513 10:15:47.201567  3712 sc2_env.py:632] Episode 198 finished after 21568 game steps. Outcome: [-1], reward: [-1], score: [6370]
+I0513 10:15:51.108412  3712 sc2_env.py:462] Starting episode: 199
+I0513 10:17:39.372126  3712 sc2_env.py:632] Episode 199 finished after 28744 game steps. Outcome: [-1], reward: [-1], score: [6270]
+I0513 10:17:43.277867  3712 sc2_env.py:462] Starting episode: 200
+I0513 10:18:25.970252  3712 sc2_env.py:632] Episode 200 finished after 12536 game steps. Outcome: [-1], reward: [-1], score: [3515]
+I0513 10:18:30.216700  3712 sc2_env.py:462] Starting episode: 201
+I0513 10:19:08.218740  3712 sc2_env.py:632] Episode 201 finished after 12464 game steps. Outcome: [-1], reward: [-1], score: [3240]
+I0513 10:19:12.457182  3712 sc2_env.py:462] Starting episode: 202
+I0513 10:19:53.549653  3712 sc2_env.py:632] Episode 202 finished after 13472 game steps. Outcome: [-1], reward: [-1], score: [3830]
+I0513 10:19:57.488457  3712 sc2_env.py:462] Starting episode: 203
+I0513 10:20:31.910487  3712 sc2_env.py:632] Episode 203 finished after 11776 game steps. Outcome: [-1], reward: [-1], score: [3280]
+I0513 10:20:35.992157  3712 sc2_env.py:462] Starting episode: 204
+I0513 10:21:18.435139  3712 sc2_env.py:632] Episode 204 finished after 13880 game steps. Outcome: [-1], reward: [-1], score: [2795]
+I0513 10:21:22.361711  3712 sc2_env.py:462] Starting episode: 205
+I0513 10:21:55.433142  3712 sc2_env.py:632] Episode 205 finished after 11728 game steps. Outcome: [-1], reward: [-1], score: [4055]
+I0513 10:21:59.363577  3712 sc2_env.py:462] Starting episode: 206
+I0513 10:22:48.072711  3712 sc2_env.py:632] Episode 206 finished after 14000 game steps. Outcome: [-1], reward: [-1], score: [3770]
+I0513 10:22:51.949470  3712 sc2_env.py:462] Starting episode: 207
+I0513 10:23:51.637667  3712 sc2_env.py:632] Episode 207 finished after 17984 game steps. Outcome: [-1], reward: [-1], score: [3630]
+I0513 10:23:55.753356  3712 sc2_env.py:462] Starting episode: 208
+I0513 10:25:03.717133  3712 sc2_env.py:632] Episode 208 finished after 18008 game steps. Outcome: [-1], reward: [-1], score: [5105]
+I0513 10:25:07.590697  3712 sc2_env.py:462] Starting episode: 209
+I0513 10:26:12.555281  3712 sc2_env.py:632] Episode 209 finished after 19232 game steps. Outcome: [-1], reward: [-1], score: [5630]
+I0513 10:26:16.411123  3712 sc2_env.py:462] Starting episode: 210
+I0513 10:26:54.742686  3712 sc2_env.py:632] Episode 210 finished after 12080 game steps. Outcome: [-1], reward: [-1], score: [3435]
+I0513 10:26:58.581573  3712 sc2_env.py:462] Starting episode: 211
+I0513 10:27:33.531369  3712 sc2_env.py:632] Episode 211 finished after 12168 game steps. Outcome: [-1], reward: [-1], score: [3430]
+I0513 10:27:37.416586  3712 sc2_env.py:462] Starting episode: 212
+I0513 10:28:08.875267  3712 sc2_env.py:632] Episode 212 finished after 10448 game steps. Outcome: [-1], reward: [-1], score: [2855]
+I0513 10:28:12.756539  3712 sc2_env.py:462] Starting episode: 213
+I0513 10:29:02.869417  3712 sc2_env.py:632] Episode 213 finished after 15864 game steps. Outcome: [-1], reward: [-1], score: [2675]
+I0513 10:29:06.760789  3712 sc2_env.py:462] Starting episode: 214
+I0513 10:29:46.258237  3712 sc2_env.py:632] Episode 214 finished after 12208 game steps. Outcome: [-1], reward: [-1], score: [3470]
+I0513 10:29:50.166508  3712 sc2_env.py:462] Starting episode: 215
+I0513 10:30:54.013618  3712 sc2_env.py:632] Episode 215 finished after 16712 game steps. Outcome: [-1], reward: [-1], score: [4670]
+I0513 10:30:57.909478  3712 sc2_env.py:462] Starting episode: 216
+I0513 10:32:00.593084  3712 sc2_env.py:632] Episode 216 finished after 18368 game steps. Outcome: [-1], reward: [-1], score: [6080]
+I0513 10:32:04.491266  3712 sc2_env.py:462] Starting episode: 217
+I0513 10:32:44.685726  3712 sc2_env.py:632] Episode 217 finished after 13520 game steps. Outcome: [-1], reward: [-1], score: [4195]
+I0513 10:32:48.623725  3712 sc2_env.py:462] Starting episode: 218
+I0513 10:33:53.395305  3712 sc2_env.py:632] Episode 218 finished after 18744 game steps. Outcome: [-1], reward: [-1], score: [5225]
+I0513 10:33:57.303804  3712 sc2_env.py:462] Starting episode: 219
+I0513 10:34:42.984298  3712 sc2_env.py:632] Episode 219 finished after 15064 game steps. Outcome: [-1], reward: [-1], score: [3745]
+I0513 10:34:46.846880  3712 sc2_env.py:462] Starting episode: 220
+I0513 10:35:34.114998  3712 sc2_env.py:632] Episode 220 finished after 15496 game steps. Outcome: [-1], reward: [-1], score: [3500]
+I0513 10:35:37.971500  3712 sc2_env.py:462] Starting episode: 221
+I0513 10:36:55.317481  3712 sc2_env.py:632] Episode 221 finished after 20984 game steps. Outcome: [-1], reward: [-1], score: [5860]
+I0513 10:36:59.246614  3712 sc2_env.py:462] Starting episode: 222
+I0513 10:37:58.913208  3712 sc2_env.py:632] Episode 222 finished after 17800 game steps. Outcome: [-1], reward: [-1], score: [4490]
+I0513 10:38:02.871999  3712 sc2_env.py:462] Starting episode: 223
+I0513 10:38:46.807132  3712 sc2_env.py:632] Episode 223 finished after 13048 game steps. Outcome: [-1], reward: [-1], score: [3370]
+I0513 10:38:50.723374  3712 sc2_env.py:462] Starting episode: 224
+I0513 10:39:58.503336  3712 sc2_env.py:632] Episode 224 finished after 18152 game steps. Outcome: [-1], reward: [-1], score: [5260]
+I0513 10:40:02.394220  3712 sc2_env.py:462] Starting episode: 225
+I0513 10:41:24.654169  3712 sc2_env.py:632] Episode 225 finished after 21632 game steps. Outcome: [-1], reward: [-1], score: [5520]
+I0513 10:41:28.510592  3712 sc2_env.py:462] Starting episode: 226
+I0513 10:42:32.386866  3712 sc2_env.py:632] Episode 226 finished after 18752 game steps. Outcome: [-1], reward: [-1], score: [3455]
+I0513 10:42:36.336773  3712 sc2_env.py:462] Starting episode: 227
+I0513 10:43:43.354559  3712 sc2_env.py:632] Episode 227 finished after 19760 game steps. Outcome: [-1], reward: [-1], score: [4655]
+I0513 10:43:47.213655  3712 sc2_env.py:462] Starting episode: 228
+I0513 10:44:27.307739  3712 sc2_env.py:632] Episode 228 finished after 12336 game steps. Outcome: [-1], reward: [-1], score: [3980]
+I0513 10:44:31.216615  3712 sc2_env.py:462] Starting episode: 229
+I0513 10:45:30.690046  3712 sc2_env.py:632] Episode 229 finished after 18176 game steps. Outcome: [-1], reward: [-1], score: [4840]
+I0513 10:45:34.554152  3712 sc2_env.py:462] Starting episode: 230
+I0513 10:46:21.420247  3712 sc2_env.py:632] Episode 230 finished after 15208 game steps. Outcome: [-1], reward: [-1], score: [3525]
+I0513 10:46:25.363411  3712 sc2_env.py:462] Starting episode: 231
+I0513 10:47:21.942818  3712 sc2_env.py:632] Episode 231 finished after 17312 game steps. Outcome: [-1], reward: [-1], score: [5425]
+I0513 10:47:25.766351  3712 sc2_env.py:462] Starting episode: 232
+I0513 10:48:24.185109  3712 sc2_env.py:632] Episode 232 finished after 17432 game steps. Outcome: [-1], reward: [-1], score: [5680]
+I0513 10:48:28.097746  3712 sc2_env.py:462] Starting episode: 233
+I0513 10:49:16.472145  3712 sc2_env.py:632] Episode 233 finished after 15864 game steps. Outcome: [-1], reward: [-1], score: [4025]
+I0513 10:49:20.363179  3712 sc2_env.py:462] Starting episode: 234
+I0513 10:49:59.824759  3712 sc2_env.py:632] Episode 234 finished after 13424 game steps. Outcome: [-1], reward: [-1], score: [4230]
+I0513 10:50:03.755053  3712 sc2_env.py:462] Starting episode: 235
+I0513 10:51:30.938092  3712 sc2_env.py:632] Episode 235 finished after 25600 game steps. Outcome: [-1], reward: [-1], score: [4440]
+I0513 10:51:34.876981  3712 sc2_env.py:462] Starting episode: 236
+I0513 10:52:15.228135  3712 sc2_env.py:632] Episode 236 finished after 11480 game steps. Outcome: [-1], reward: [-1], score: [3405]
+I0513 10:52:19.135845  3712 sc2_env.py:462] Starting episode: 237
+I0513 10:53:00.138583  3712 sc2_env.py:632] Episode 237 finished after 12560 game steps. Outcome: [-1], reward: [-1], score: [4100]
+I0513 10:53:04.086853  3712 sc2_env.py:462] Starting episode: 238
+I0513 10:53:35.834509  3712 sc2_env.py:632] Episode 238 finished after 10688 game steps. Outcome: [-1], reward: [-1], score: [3030]
+I0513 10:53:39.666947  3712 sc2_env.py:462] Starting episode: 239
+I0513 10:54:33.331077  3712 sc2_env.py:632] Episode 239 finished after 16424 game steps. Outcome: [-1], reward: [-1], score: [5540]
+I0513 10:54:37.220418  3712 sc2_env.py:462] Starting episode: 240
+I0513 10:55:21.205463  3712 sc2_env.py:632] Episode 240 finished after 12792 game steps. Outcome: [-1], reward: [-1], score: [2265]
+I0513 10:55:25.105093  3712 sc2_env.py:462] Starting episode: 241
+I0513 10:56:23.576284  3712 sc2_env.py:632] Episode 241 finished after 18576 game steps. Outcome: [-1], reward: [-1], score: [5590]
+I0513 10:56:27.476989  3712 sc2_env.py:462] Starting episode: 242
+I0513 10:57:08.466801  3712 sc2_env.py:632] Episode 242 finished after 13632 game steps. Outcome: [-1], reward: [-1], score: [3345]
+I0513 10:57:12.320002  3712 sc2_env.py:462] Starting episode: 243
+I0513 10:57:56.430967  3712 sc2_env.py:632] Episode 243 finished after 15192 game steps. Outcome: [-1], reward: [-1], score: [3180]
+I0513 10:58:00.320530  3712 sc2_env.py:462] Starting episode: 244
+I0513 10:58:36.005808  3712 sc2_env.py:632] Episode 244 finished after 12056 game steps. Outcome: [-1], reward: [-1], score: [3855]
+I0513 10:58:39.893575  3712 sc2_env.py:462] Starting episode: 245
+I0513 10:59:44.141551  3712 sc2_env.py:632] Episode 245 finished after 17392 game steps. Outcome: [-1], reward: [-1], score: [4210]
+I0513 10:59:48.021569  3712 sc2_env.py:462] Starting episode: 246
+I0513 11:00:37.145772  3712 sc2_env.py:632] Episode 246 finished after 15952 game steps. Outcome: [-1], reward: [-1], score: [3815]
+I0513 11:00:41.029385  3712 sc2_env.py:462] Starting episode: 247
+I0513 11:01:21.840162  3712 sc2_env.py:632] Episode 247 finished after 13616 game steps. Outcome: [-1], reward: [-1], score: [4080]
+I0513 11:01:25.760509  3712 sc2_env.py:462] Starting episode: 248
+I0513 11:02:15.291000  3712 sc2_env.py:632] Episode 248 finished after 15808 game steps. Outcome: [-1], reward: [-1], score: [3775]
+I0513 11:02:19.231489  3712 sc2_env.py:462] Starting episode: 249
+I0513 11:03:24.886464  3712 sc2_env.py:632] Episode 249 finished after 18536 game steps. Outcome: [-1], reward: [-1], score: [5520]
+I0513 11:03:28.770834  3712 sc2_env.py:462] Starting episode: 250
+I0513 11:04:32.034781  3712 sc2_env.py:632] Episode 250 finished after 17520 game steps. Outcome: [-1], reward: [-1], score: [4030]
+I0513 11:04:35.986387  3712 sc2_env.py:462] Starting episode: 251
+I0513 11:05:19.547971  3712 sc2_env.py:632] Episode 251 finished after 12928 game steps. Outcome: [-1], reward: [-1], score: [3245]
+I0513 11:05:23.511416  3712 sc2_env.py:462] Starting episode: 252
+I0513 11:06:38.816133  3712 sc2_env.py:632] Episode 252 finished after 22336 game steps. Outcome: [-1], reward: [-1], score: [4480]
+I0513 11:06:42.771702  3712 sc2_env.py:462] Starting episode: 253
+I0513 11:07:28.938905  3712 sc2_env.py:632] Episode 253 finished after 13560 game steps. Outcome: [-1], reward: [-1], score: [3340]
+I0513 11:07:32.774151  3712 sc2_env.py:462] Starting episode: 254
+I0513 11:08:08.552538  3712 sc2_env.py:632] Episode 254 finished after 12584 game steps. Outcome: [-1], reward: [-1], score: [3405]
+I0513 11:08:12.440463  3712 sc2_env.py:462] Starting episode: 255
+I0513 11:09:10.735880  3712 sc2_env.py:632] Episode 255 finished after 17528 game steps. Outcome: [-1], reward: [-1], score: [4840]
+I0513 11:09:14.620548  3712 sc2_env.py:462] Starting episode: 256
+I0513 11:09:57.501766  3712 sc2_env.py:632] Episode 256 finished after 14104 game steps. Outcome: [-1], reward: [-1], score: [3025]
+I0513 11:10:01.302809  3712 sc2_env.py:462] Starting episode: 257
+I0513 11:10:32.438524  3712 sc2_env.py:632] Episode 257 finished after 10616 game steps. Outcome: [-1], reward: [-1], score: [2635]
+I0513 11:10:36.310984  3712 sc2_env.py:462] Starting episode: 258
+I0513 11:11:31.243490  3712 sc2_env.py:632] Episode 258 finished after 16776 game steps. Outcome: [-1], reward: [-1], score: [5050]
+I0513 11:11:35.147499  3712 sc2_env.py:462] Starting episode: 259
+I0513 11:13:13.035150  3712 sc2_env.py:632] Episode 259 finished after 27424 game steps. Outcome: [-1], reward: [-1], score: [3680]
+I0513 11:13:16.878101  3712 sc2_env.py:462] Starting episode: 260
+I0513 11:14:22.156225  3712 sc2_env.py:632] Episode 260 finished after 19760 game steps. Outcome: [-1], reward: [-1], score: [4570]
+I0513 11:14:26.063223  3712 sc2_env.py:462] Starting episode: 261
+I0513 11:15:48.403369  3712 sc2_env.py:632] Episode 261 finished after 23088 game steps. Outcome: [-1], reward: [-1], score: [6585]
+I0513 11:15:52.252650  3712 sc2_env.py:462] Starting episode: 262
+I0513 11:16:44.933130  3712 sc2_env.py:632] Episode 262 finished after 17536 game steps. Outcome: [-1], reward: [-1], score: [4455]
+I0513 11:16:48.862909  3712 sc2_env.py:462] Starting episode: 263
+I0513 11:18:05.905342  3712 sc2_env.py:632] Episode 263 finished after 20160 game steps. Outcome: [-1], reward: [-1], score: [4625]
+I0513 11:18:09.904389  3712 sc2_env.py:462] Starting episode: 264
+I0513 11:19:19.319425  3712 sc2_env.py:632] Episode 264 finished after 18576 game steps. Outcome: [-1], reward: [-1], score: [6060]
+I0513 11:19:23.263262  3712 sc2_env.py:462] Starting episode: 265
+I0513 11:20:13.175474  3712 sc2_env.py:632] Episode 265 finished after 16256 game steps. Outcome: [-1], reward: [-1], score: [3655]
+I0513 11:20:17.144909  3712 sc2_env.py:462] Starting episode: 266
+I0513 11:20:55.571325  3712 sc2_env.py:632] Episode 266 finished after 12880 game steps. Outcome: [-1], reward: [-1], score: [4385]
+I0513 11:20:59.410275  3712 sc2_env.py:462] Starting episode: 267
+I0513 11:21:44.826324  3712 sc2_env.py:632] Episode 267 finished after 15456 game steps. Outcome: [-1], reward: [-1], score: [3195]
+I0513 11:21:48.733415  3712 sc2_env.py:462] Starting episode: 268
+I0513 11:22:53.110162  3712 sc2_env.py:632] Episode 268 finished after 17656 game steps. Outcome: [-1], reward: [-1], score: [5185]
+I0513 11:22:57.034567  3712 sc2_env.py:462] Starting episode: 269
+I0513 11:23:47.167487  3712 sc2_env.py:632] Episode 269 finished after 15096 game steps. Outcome: [-1], reward: [-1], score: [3635]
+I0513 11:23:51.147019  3712 sc2_env.py:462] Starting episode: 270
+I0513 11:24:26.355093  3712 sc2_env.py:632] Episode 270 finished after 11048 game steps. Outcome: [-1], reward: [-1], score: [2685]
+I0513 11:24:30.264763  3712 sc2_env.py:462] Starting episode: 271
+I0513 11:25:15.331633  3712 sc2_env.py:632] Episode 271 finished after 13080 game steps. Outcome: [-1], reward: [-1], score: [3410]
+I0513 11:25:19.296968  3712 sc2_env.py:462] Starting episode: 272
+I0513 11:26:13.012831  3712 sc2_env.py:632] Episode 272 finished after 17088 game steps. Outcome: [-1], reward: [-1], score: [4865]
+I0513 11:26:16.920449  3712 sc2_env.py:462] Starting episode: 273
+I0513 11:27:26.767786  3712 sc2_env.py:632] Episode 273 finished after 19488 game steps. Outcome: [-1], reward: [-1], score: [5180]
+I0513 11:27:30.660893  3712 sc2_env.py:462] Starting episode: 274
+I0513 11:28:35.975306  3712 sc2_env.py:632] Episode 274 finished after 18792 game steps. Outcome: [-1], reward: [-1], score: [4700]
+I0513 11:28:39.878542  3712 sc2_env.py:462] Starting episode: 275
+I0513 11:29:18.667147  3712 sc2_env.py:632] Episode 275 finished after 12832 game steps. Outcome: [-1], reward: [-1], score: [3640]
+I0513 11:29:22.542352  3712 sc2_env.py:462] Starting episode: 276
+I0513 11:30:39.760928  3712 sc2_env.py:632] Episode 276 finished after 22536 game steps. Outcome: [-1], reward: [-1], score: [5425]
+I0513 11:30:43.701588  3712 sc2_env.py:462] Starting episode: 277
+I0513 11:31:18.842115  3712 sc2_env.py:632] Episode 277 finished after 12112 game steps. Outcome: [-1], reward: [-1], score: [2880]
+I0513 11:31:22.666267  3712 sc2_env.py:462] Starting episode: 278
+I0513 11:32:02.624816  3712 sc2_env.py:632] Episode 278 finished after 13344 game steps. Outcome: [-1], reward: [-1], score: [2595]
+I0513 11:32:06.487040  3712 sc2_env.py:462] Starting episode: 279
+I0513 11:32:48.975890  3712 sc2_env.py:632] Episode 279 finished after 14040 game steps. Outcome: [-1], reward: [-1], score: [3180]
+I0513 11:32:52.931996  3712 sc2_env.py:462] Starting episode: 280
+I0513 11:33:35.667934  3712 sc2_env.py:632] Episode 280 finished after 12848 game steps. Outcome: [-1], reward: [-1], score: [3090]
+I0513 11:33:39.592184  3712 sc2_env.py:462] Starting episode: 281
+I0513 11:34:39.589616  3712 sc2_env.py:632] Episode 281 finished after 18584 game steps. Outcome: [-1], reward: [-1], score: [4850]
+I0513 11:34:43.566894  3712 sc2_env.py:462] Starting episode: 282
+I0513 11:35:20.614066  3712 sc2_env.py:632] Episode 282 finished after 12320 game steps. Outcome: [-1], reward: [-1], score: [3795]
+I0513 11:35:24.463152  3712 sc2_env.py:462] Starting episode: 283
+I0513 11:36:05.256110  3712 sc2_env.py:632] Episode 283 finished after 13952 game steps. Outcome: [-1], reward: [-1], score: [3655]
+I0513 11:36:09.130603  3712 sc2_env.py:462] Starting episode: 284
+I0513 11:36:48.012082  3712 sc2_env.py:632] Episode 284 finished after 12752 game steps. Outcome: [-1], reward: [-1], score: [2745]
+I0513 11:36:51.942551  3712 sc2_env.py:462] Starting episode: 285
+I0513 11:37:57.555370  3712 sc2_env.py:632] Episode 285 finished after 18032 game steps. Outcome: [-1], reward: [-1], score: [4490]
+I0513 11:38:01.432315  3712 sc2_env.py:462] Starting episode: 286
+I0513 11:39:04.689179  3712 sc2_env.py:632] Episode 286 finished after 17192 game steps. Outcome: [-1], reward: [-1], score: [5095]
+I0513 11:39:08.639026  3712 sc2_env.py:462] Starting episode: 287
+I0513 11:40:17.847966  3712 sc2_env.py:632] Episode 287 finished after 22960 game steps. Outcome: [1], reward: [1], score: [7660]
+I0513 11:40:21.945248  3712 sc2_env.py:462] Starting episode: 288
+I0513 11:41:41.387435  3712 sc2_env.py:632] Episode 288 finished after 22464 game steps. Outcome: [-1], reward: [-1], score: [6210]
+I0513 11:41:45.291266  3712 sc2_env.py:462] Starting episode: 289
+I0513 11:42:53.241762  3712 sc2_env.py:632] Episode 289 finished after 20440 game steps. Outcome: [-1], reward: [-1], score: [4440]
+I0513 11:42:57.112393  3712 sc2_env.py:462] Starting episode: 290
+I0513 11:43:40.653688  3712 sc2_env.py:632] Episode 290 finished after 14488 game steps. Outcome: [-1], reward: [-1], score: [3340]
+I0513 11:43:44.514067  3712 sc2_env.py:462] Starting episode: 291
+I0513 11:45:07.460398  3712 sc2_env.py:632] Episode 291 finished after 22280 game steps. Outcome: [-1], reward: [-1], score: [5740]
+I0513 11:45:11.361371  3712 sc2_env.py:462] Starting episode: 292
+I0513 11:46:01.881566  3712 sc2_env.py:632] Episode 292 finished after 16224 game steps. Outcome: [-1], reward: [-1], score: [4725]
+I0513 11:46:05.902033  3712 sc2_env.py:462] Starting episode: 293
+I0513 11:47:44.348831  3712 sc2_env.py:632] Episode 293 finished after 28800 game steps. Outcome: [0], reward: [0], score: [9010]
+I0513 11:47:48.338428  3712 sc2_env.py:462] Starting episode: 294
+I0513 11:48:25.633853  3712 sc2_env.py:632] Episode 294 finished after 12472 game steps. Outcome: [-1], reward: [-1], score: [2825]
+I0513 11:48:29.547298  3712 sc2_env.py:462] Starting episode: 295
+I0513 11:49:41.867125  3712 sc2_env.py:632] Episode 295 finished after 19240 game steps. Outcome: [-1], reward: [-1], score: [5760]
+I0513 11:49:45.765193  3712 sc2_env.py:462] Starting episode: 296
+I0513 11:50:33.659112  3712 sc2_env.py:632] Episode 296 finished after 15176 game steps. Outcome: [-1], reward: [-1], score: [3950]
+I0513 11:50:37.538930  3712 sc2_env.py:462] Starting episode: 297
+I0513 11:51:22.669371  3712 sc2_env.py:632] Episode 297 finished after 15224 game steps. Outcome: [-1], reward: [-1], score: [2175]
+I0513 11:51:26.501033  3712 sc2_env.py:462] Starting episode: 298
+I0513 11:52:28.372279  3712 sc2_env.py:632] Episode 298 finished after 19024 game steps. Outcome: [-1], reward: [-1], score: [4605]
+I0513 11:52:32.243006  3712 sc2_env.py:462] Starting episode: 299
+I0513 11:53:14.638647  3712 sc2_env.py:632] Episode 299 finished after 14304 game steps. Outcome: [-1], reward: [-1], score: [3650]
+I0513 11:53:18.600146  3712 sc2_env.py:462] Starting episode: 300
+I0513 11:54:03.791456  3712 sc2_env.py:632] Episode 300 finished after 13712 game steps. Outcome: [-1], reward: [-1], score: [4250]
+I0513 11:54:08.021677  3712 sc2_env.py:462] Starting episode: 301
+I0513 11:54:43.093270  3712 sc2_env.py:632] Episode 301 finished after 11936 game steps. Outcome: [-1], reward: [-1], score: [3385]
+I0513 11:54:47.359894  3712 sc2_env.py:462] Starting episode: 302
+I0513 11:55:37.822744  3712 sc2_env.py:632] Episode 302 finished after 14600 game steps. Outcome: [-1], reward: [-1], score: [2805]
+I0513 11:55:41.896520  3712 sc2_env.py:462] Starting episode: 303
+I0513 11:57:08.428438  3712 sc2_env.py:632] Episode 303 finished after 22856 game steps. Outcome: [-1], reward: [-1], score: [3615]
+I0513 11:57:12.401062  3712 sc2_env.py:462] Starting episode: 304
+I0513 11:57:42.163182  3712 sc2_env.py:632] Episode 304 finished after 9792 game steps. Outcome: [-1], reward: [-1], score: [2855]
+I0513 11:57:46.312816  3712 sc2_env.py:462] Starting episode: 305
+I0513 11:58:29.440325  3712 sc2_env.py:632] Episode 305 finished after 14208 game steps. Outcome: [-1], reward: [-1], score: [3800]
+I0513 11:58:33.374460  3712 sc2_env.py:462] Starting episode: 306
+I0513 11:59:12.153281  3712 sc2_env.py:632] Episode 306 finished after 12680 game steps. Outcome: [-1], reward: [-1], score: [4485]
+I0513 11:59:16.083804  3712 sc2_env.py:462] Starting episode: 307
+I0513 12:00:06.604122  3712 sc2_env.py:632] Episode 307 finished after 16728 game steps. Outcome: [-1], reward: [-1], score: [1970]
+I0513 12:00:10.408694  3712 sc2_env.py:462] Starting episode: 308
+I0513 12:00:51.134689  3712 sc2_env.py:632] Episode 308 finished after 13224 game steps. Outcome: [-1], reward: [-1], score: [3300]
+I0513 12:00:55.042112  3712 sc2_env.py:462] Starting episode: 309
+I0513 12:01:58.367691  3712 sc2_env.py:632] Episode 309 finished after 17864 game steps. Outcome: [-1], reward: [-1], score: [5680]
+I0513 12:02:02.303086  3712 sc2_env.py:462] Starting episode: 310
+I0513 12:02:48.407402  3712 sc2_env.py:632] Episode 310 finished after 15824 game steps. Outcome: [-1], reward: [-1], score: [3310]
+I0513 12:02:52.250654  3712 sc2_env.py:462] Starting episode: 311
+I0513 12:03:56.381127  3712 sc2_env.py:632] Episode 311 finished after 17856 game steps. Outcome: [-1], reward: [-1], score: [4940]
+I0513 12:04:00.316283  3712 sc2_env.py:462] Starting episode: 312
+I0513 12:04:37.339855  3712 sc2_env.py:632] Episode 312 finished after 11632 game steps. Outcome: [-1], reward: [-1], score: [2770]
+I0513 12:04:41.264522  3712 sc2_env.py:462] Starting episode: 313
+I0513 12:05:43.324190  3712 sc2_env.py:632] Episode 313 finished after 17600 game steps. Outcome: [-1], reward: [-1], score: [5430]
+I0513 12:05:47.183170  3712 sc2_env.py:462] Starting episode: 314
+I0513 12:06:31.204005  3712 sc2_env.py:632] Episode 314 finished after 14824 game steps. Outcome: [-1], reward: [-1], score: [3815]
+I0513 12:06:35.152364  3712 sc2_env.py:462] Starting episode: 315
+I0513 12:07:26.680539  3712 sc2_env.py:632] Episode 315 finished after 16528 game steps. Outcome: [-1], reward: [-1], score: [3465]
+I0513 12:07:30.562651  3712 sc2_env.py:462] Starting episode: 316
+I0513 12:08:44.056958  3712 sc2_env.py:632] Episode 316 finished after 20880 game steps. Outcome: [-1], reward: [-1], score: [4880]
+I0513 12:08:47.981563  3712 sc2_env.py:462] Starting episode: 317
+I0513 12:09:43.983259  3712 sc2_env.py:632] Episode 317 finished after 17080 game steps. Outcome: [-1], reward: [-1], score: [4160]
+I0513 12:09:47.876864  3712 sc2_env.py:462] Starting episode: 318
+I0513 12:10:29.331660  3712 sc2_env.py:632] Episode 318 finished after 12888 game steps. Outcome: [-1], reward: [-1], score: [3715]
+I0513 12:10:33.172708  3712 sc2_env.py:462] Starting episode: 319
+I0513 12:11:39.871276  3712 sc2_env.py:632] Episode 319 finished after 18296 game steps. Outcome: [-1], reward: [-1], score: [6215]
+I0513 12:11:43.865187  3712 sc2_env.py:462] Starting episode: 320
+I0513 12:12:48.325619  3712 sc2_env.py:632] Episode 320 finished after 17888 game steps. Outcome: [-1], reward: [-1], score: [5875]
+I0513 12:12:52.186797  3712 sc2_env.py:462] Starting episode: 321
+I0513 12:13:30.254107  3712 sc2_env.py:632] Episode 321 finished after 12928 game steps. Outcome: [-1], reward: [-1], score: [4165]
+I0513 12:13:34.175339  3712 sc2_env.py:462] Starting episode: 322
+I0513 12:14:31.315062  3712 sc2_env.py:632] Episode 322 finished after 16752 game steps. Outcome: [-1], reward: [-1], score: [3180]
+I0513 12:14:35.211249  3712 sc2_env.py:462] Starting episode: 323
+I0513 12:15:13.622270  3712 sc2_env.py:632] Episode 323 finished after 11144 game steps. Outcome: [-1], reward: [-1], score: [3175]
+I0513 12:15:17.537983  3712 sc2_env.py:462] Starting episode: 324
+I0513 12:15:53.795368  3712 sc2_env.py:632] Episode 324 finished after 12392 game steps. Outcome: [-1], reward: [-1], score: [3435]
+I0513 12:15:57.696272  3712 sc2_env.py:462] Starting episode: 325
+I0513 12:16:59.671513  3712 sc2_env.py:632] Episode 325 finished after 19456 game steps. Outcome: [-1], reward: [-1], score: [5590]
+I0513 12:17:03.529130  3712 sc2_env.py:462] Starting episode: 326
+I0513 12:17:45.429788  3712 sc2_env.py:632] Episode 326 finished after 14024 game steps. Outcome: [-1], reward: [-1], score: [3565]
+I0513 12:17:49.312826  3712 sc2_env.py:462] Starting episode: 327
+I0513 12:19:06.090089  3712 sc2_env.py:632] Episode 327 finished after 20320 game steps. Outcome: [-1], reward: [-1], score: [5715]
+I0513 12:19:09.977321  3712 sc2_env.py:462] Starting episode: 328
+I0513 12:20:14.618034  3712 sc2_env.py:632] Episode 328 finished after 18848 game steps. Outcome: [-1], reward: [-1], score: [5010]
+I0513 12:20:18.497261  3712 sc2_env.py:462] Starting episode: 329
+I0513 12:21:05.987374  3712 sc2_env.py:632] Episode 329 finished after 15528 game steps. Outcome: [-1], reward: [-1], score: [4225]
+I0513 12:21:09.890336  3712 sc2_env.py:462] Starting episode: 330
+I0513 12:21:58.666139  3712 sc2_env.py:632] Episode 330 finished after 15680 game steps. Outcome: [-1], reward: [-1], score: [3090]
+I0513 12:22:02.513110  3712 sc2_env.py:462] Starting episode: 331
+I0513 12:22:34.004796  3712 sc2_env.py:632] Episode 331 finished after 10904 game steps. Outcome: [-1], reward: [-1], score: [2215]
+I0513 12:22:37.875028  3712 sc2_env.py:462] Starting episode: 332
+I0513 12:23:51.825530  3712 sc2_env.py:632] Episode 332 finished after 19664 game steps. Outcome: [-1], reward: [-1], score: [4665]
+I0513 12:23:55.718822  3712 sc2_env.py:462] Starting episode: 333
+I0513 12:25:03.997639  3712 sc2_env.py:632] Episode 333 finished after 18640 game steps. Outcome: [-1], reward: [-1], score: [5470]
+I0513 12:25:07.920960  3712 sc2_env.py:462] Starting episode: 334
+I0513 12:26:13.081402  3712 sc2_env.py:632] Episode 334 finished after 18296 game steps. Outcome: [-1], reward: [-1], score: [5660]
+I0513 12:26:17.002824  3712 sc2_env.py:462] Starting episode: 335
+I0513 12:28:11.454586  3712 sc2_env.py:632] Episode 335 finished after 28800 game steps. Outcome: [0], reward: [0], score: [7130]
+I0513 12:28:15.411589  3712 sc2_env.py:462] Starting episode: 336
+I0513 12:29:33.359320  3712 sc2_env.py:632] Episode 336 finished after 21008 game steps. Outcome: [-1], reward: [-1], score: [5660]
+I0513 12:29:37.323553  3712 sc2_env.py:462] Starting episode: 337
+I0513 12:30:25.896591  3712 sc2_env.py:632] Episode 337 finished after 14224 game steps. Outcome: [-1], reward: [-1], score: [3275]
+I0513 12:30:29.871684  3712 sc2_env.py:462] Starting episode: 338
+I0513 12:31:37.264888  3712 sc2_env.py:632] Episode 338 finished after 18392 game steps. Outcome: [-1], reward: [-1], score: [6015]
+I0513 12:31:41.236359  3712 sc2_env.py:462] Starting episode: 339
+I0513 12:32:22.734718  3712 sc2_env.py:632] Episode 339 finished after 13624 game steps. Outcome: [-1], reward: [-1], score: [3070]
+I0513 12:32:26.647894  3712 sc2_env.py:462] Starting episode: 340
+I0513 12:33:08.465937  3712 sc2_env.py:632] Episode 340 finished after 14264 game steps. Outcome: [-1], reward: [-1], score: [3260]
+I0513 12:33:12.352912  3712 sc2_env.py:462] Starting episode: 341
+I0513 12:34:00.417415  3712 sc2_env.py:632] Episode 341 finished after 15680 game steps. Outcome: [-1], reward: [-1], score: [3420]
+I0513 12:34:04.283622  3712 sc2_env.py:462] Starting episode: 342
+I0513 12:35:04.490044  3712 sc2_env.py:632] Episode 342 finished after 16216 game steps. Outcome: [-1], reward: [-1], score: [4655]
+I0513 12:35:08.382870  3712 sc2_env.py:462] Starting episode: 343
+I0513 12:35:49.744473  3712 sc2_env.py:632] Episode 343 finished after 13440 game steps. Outcome: [-1], reward: [-1], score: [3960]
+I0513 12:35:53.702521  3712 sc2_env.py:462] Starting episode: 344
+I0513 12:37:38.865170  3712 sc2_env.py:632] Episode 344 finished after 26936 game steps. Outcome: [-1], reward: [-1], score: [5415]
+I0513 12:37:42.664368  3712 sc2_env.py:462] Starting episode: 345
+I0513 12:39:04.507749  3712 sc2_env.py:632] Episode 345 finished after 21352 game steps. Outcome: [-1], reward: [-1], score: [3250]
+I0513 12:39:08.386528  3712 sc2_env.py:462] Starting episode: 346
+I0513 12:40:10.798990  3712 sc2_env.py:632] Episode 346 finished after 18848 game steps. Outcome: [-1], reward: [-1], score: [4965]
+I0513 12:40:14.688026  3712 sc2_env.py:462] Starting episode: 347
+I0513 12:41:11.299106  3712 sc2_env.py:632] Episode 347 finished after 16432 game steps. Outcome: [-1], reward: [-1], score: [5320]
+I0513 12:41:15.224445  3712 sc2_env.py:462] Starting episode: 348
+I0513 12:42:06.277221  3712 sc2_env.py:632] Episode 348 finished after 16680 game steps. Outcome: [-1], reward: [-1], score: [3250]
+I0513 12:42:10.154263  3712 sc2_env.py:462] Starting episode: 349
+I0513 12:42:47.406734  3712 sc2_env.py:632] Episode 349 finished after 12216 game steps. Outcome: [-1], reward: [-1], score: [2510]
+I0513 12:42:51.324215  3712 sc2_env.py:462] Starting episode: 350
+I0513 12:44:06.952148  3712 sc2_env.py:632] Episode 350 finished after 20200 game steps. Outcome: [-1], reward: [-1], score: [6700]
+I0513 12:44:10.886247  3712 sc2_env.py:462] Starting episode: 351
+I0513 12:45:12.937658  3712 sc2_env.py:632] Episode 351 finished after 18624 game steps. Outcome: [-1], reward: [-1], score: [3705]
+I0513 12:45:16.717437  3712 sc2_env.py:462] Starting episode: 352
+I0513 12:46:23.941207  3712 sc2_env.py:632] Episode 352 finished after 18464 game steps. Outcome: [-1], reward: [-1], score: [5620]
+I0513 12:46:27.816773  3712 sc2_env.py:462] Starting episode: 353
+I0513 12:47:30.201935  3712 sc2_env.py:632] Episode 353 finished after 19024 game steps. Outcome: [-1], reward: [-1], score: [4145]
+I0513 12:47:34.083139  3712 sc2_env.py:462] Starting episode: 354
+I0513 12:48:22.078777  3712 sc2_env.py:632] Episode 354 finished after 14296 game steps. Outcome: [-1], reward: [-1], score: [3410]
+I0513 12:48:25.972385  3712 sc2_env.py:462] Starting episode: 355
+I0513 12:49:24.086927  3712 sc2_env.py:632] Episode 355 finished after 17968 game steps. Outcome: [-1], reward: [-1], score: [4245]
+I0513 12:49:27.928901  3712 sc2_env.py:462] Starting episode: 356
+I0513 12:50:35.548636  3712 sc2_env.py:632] Episode 356 finished after 19776 game steps. Outcome: [-1], reward: [-1], score: [6090]
+I0513 12:50:39.527201  3712 sc2_env.py:462] Starting episode: 357
+I0513 12:51:26.530982  3712 sc2_env.py:632] Episode 357 finished after 15448 game steps. Outcome: [-1], reward: [-1], score: [3585]
+I0513 12:51:30.373218  3712 sc2_env.py:462] Starting episode: 358
+I0513 12:52:41.522308  3712 sc2_env.py:632] Episode 358 finished after 20800 game steps. Outcome: [-1], reward: [-1], score: [5415]
+I0513 12:52:45.384392  3712 sc2_env.py:462] Starting episode: 359
+I0513 12:53:18.950885  3712 sc2_env.py:632] Episode 359 finished after 11944 game steps. Outcome: [-1], reward: [-1], score: [3715]
+I0513 12:53:22.811167  3712 sc2_env.py:462] Starting episode: 360
+I0513 12:54:06.238247  3712 sc2_env.py:632] Episode 360 finished after 13744 game steps. Outcome: [-1], reward: [-1], score: [4085]
+I0513 12:54:10.144036  3712 sc2_env.py:462] Starting episode: 361
+I0513 12:55:12.424897  3712 sc2_env.py:632] Episode 361 finished after 19344 game steps. Outcome: [-1], reward: [-1], score: [5420]
+I0513 12:55:16.302726  3712 sc2_env.py:462] Starting episode: 362
+I0513 12:55:58.606491  3712 sc2_env.py:632] Episode 362 finished after 13040 game steps. Outcome: [-1], reward: [-1], score: [3435]
+I0513 12:56:02.450683  3712 sc2_env.py:462] Starting episode: 363
+I0513 12:56:39.639650  3712 sc2_env.py:632] Episode 363 finished after 12248 game steps. Outcome: [-1], reward: [-1], score: [3020]
+I0513 12:56:43.504402  3712 sc2_env.py:462] Starting episode: 364
+I0513 12:57:45.905631  3712 sc2_env.py:632] Episode 364 finished after 18888 game steps. Outcome: [-1], reward: [-1], score: [6470]
+I0513 12:57:49.790294  3712 sc2_env.py:462] Starting episode: 365
+I0513 12:59:02.333220  3712 sc2_env.py:632] Episode 365 finished after 20000 game steps. Outcome: [-1], reward: [-1], score: [5810]
+I0513 12:59:06.111396  3712 sc2_env.py:462] Starting episode: 366
+I0513 13:00:05.369904  3712 sc2_env.py:632] Episode 366 finished after 17912 game steps. Outcome: [-1], reward: [-1], score: [4275]
+I0513 13:00:09.336191  3712 sc2_env.py:462] Starting episode: 367
+I0513 13:01:02.563908  3712 sc2_env.py:632] Episode 367 finished after 15832 game steps. Outcome: [-1], reward: [-1], score: [3960]
+I0513 13:01:06.467703  3712 sc2_env.py:462] Starting episode: 368
+I0513 13:02:31.459733  3712 sc2_env.py:632] Episode 368 finished after 24024 game steps. Outcome: [-1], reward: [-1], score: [4925]
+I0513 13:02:35.364306  3712 sc2_env.py:462] Starting episode: 369
+I0513 13:03:16.830694  3712 sc2_env.py:632] Episode 369 finished after 12520 game steps. Outcome: [-1], reward: [-1], score: [4305]
+I0513 13:03:20.720257  3712 sc2_env.py:462] Starting episode: 370
+I0513 13:04:19.704186  3712 sc2_env.py:632] Episode 370 finished after 17752 game steps. Outcome: [-1], reward: [-1], score: [4630]
+I0513 13:04:23.531676  3712 sc2_env.py:462] Starting episode: 371
+I0513 13:05:07.104737  3712 sc2_env.py:632] Episode 371 finished after 14440 game steps. Outcome: [-1], reward: [-1], score: [4115]
+I0513 13:05:10.969888  3712 sc2_env.py:462] Starting episode: 372
+I0513 13:05:59.670336  3712 sc2_env.py:632] Episode 372 finished after 16064 game steps. Outcome: [-1], reward: [-1], score: [2865]
+I0513 13:06:03.545191  3712 sc2_env.py:462] Starting episode: 373
+I0513 13:06:41.732530  3712 sc2_env.py:632] Episode 373 finished after 13432 game steps. Outcome: [-1], reward: [-1], score: [4040]
+I0513 13:06:45.651411  3712 sc2_env.py:462] Starting episode: 374
+I0513 13:07:24.051390  3712 sc2_env.py:632] Episode 374 finished after 12600 game steps. Outcome: [-1], reward: [-1], score: [3665]
+I0513 13:07:27.943329  3712 sc2_env.py:462] Starting episode: 375
+I0513 13:08:14.754261  3712 sc2_env.py:632] Episode 375 finished after 15232 game steps. Outcome: [-1], reward: [-1], score: [2835]
+I0513 13:08:18.652434  3712 sc2_env.py:462] Starting episode: 376
+I0513 13:09:00.840055  3712 sc2_env.py:632] Episode 376 finished after 14064 game steps. Outcome: [-1], reward: [-1], score: [3145]
+I0513 13:09:04.759452  3712 sc2_env.py:462] Starting episode: 377
+I0513 13:10:00.858614  3712 sc2_env.py:632] Episode 377 finished after 16248 game steps. Outcome: [-1], reward: [-1], score: [5535]
+I0513 13:10:04.770335  3712 sc2_env.py:462] Starting episode: 378
+I0513 13:10:55.273835  3712 sc2_env.py:632] Episode 378 finished after 16832 game steps. Outcome: [-1], reward: [-1], score: [2655]
+I0513 13:10:59.133927  3712 sc2_env.py:462] Starting episode: 379
+I0513 13:11:53.590355  3712 sc2_env.py:632] Episode 379 finished after 15504 game steps. Outcome: [-1], reward: [-1], score: [4305]
+I0513 13:11:57.487755  3712 sc2_env.py:462] Starting episode: 380
+I0513 13:12:46.177935  3712 sc2_env.py:632] Episode 380 finished after 16288 game steps. Outcome: [-1], reward: [-1], score: [3605]
+I0513 13:12:49.977063  3712 sc2_env.py:462] Starting episode: 381
+I0513 13:13:31.946436  3712 sc2_env.py:632] Episode 381 finished after 14000 game steps. Outcome: [-1], reward: [-1], score: [3240]
+I0513 13:13:35.813886  3712 sc2_env.py:462] Starting episode: 382
+I0513 13:14:36.983036  3712 sc2_env.py:632] Episode 382 finished after 17160 game steps. Outcome: [-1], reward: [-1], score: [4860]
+I0513 13:14:40.958027  3712 sc2_env.py:462] Starting episode: 383
+I0513 13:15:48.484274  3712 sc2_env.py:632] Episode 383 finished after 17488 game steps. Outcome: [-1], reward: [-1], score: [4070]
+I0513 13:15:52.355940  3712 sc2_env.py:462] Starting episode: 384
+I0513 13:16:48.758524  3712 sc2_env.py:632] Episode 384 finished after 16960 game steps. Outcome: [-1], reward: [-1], score: [4690]
+I0513 13:16:52.776556  3712 sc2_env.py:462] Starting episode: 385
+I0513 13:17:44.668690  3712 sc2_env.py:632] Episode 385 finished after 15312 game steps. Outcome: [-1], reward: [-1], score: [4410]
+I0513 13:17:48.440017  3712 sc2_env.py:462] Starting episode: 386
+I0513 13:18:38.111867  3712 sc2_env.py:632] Episode 386 finished after 16728 game steps. Outcome: [-1], reward: [-1], score: [2790]
+I0513 13:18:42.023080  3712 sc2_env.py:462] Starting episode: 387
+I0513 13:19:37.473392  3712 sc2_env.py:632] Episode 387 finished after 18000 game steps. Outcome: [-1], reward: [-1], score: [4685]
+I0513 13:19:41.353897  3712 sc2_env.py:462] Starting episode: 388
+I0513 13:20:31.821785  3712 sc2_env.py:632] Episode 388 finished after 16464 game steps. Outcome: [-1], reward: [-1], score: [3570]
+I0513 13:20:35.721936  3712 sc2_env.py:462] Starting episode: 389
+I0513 13:21:26.286361  3712 sc2_env.py:632] Episode 389 finished after 15048 game steps. Outcome: [-1], reward: [-1], score: [3500]
+I0513 13:21:30.170981  3712 sc2_env.py:462] Starting episode: 390
+I0513 13:22:15.706070  3712 sc2_env.py:632] Episode 390 finished after 13480 game steps. Outcome: [-1], reward: [-1], score: [4010]
+I0513 13:22:19.582367  3712 sc2_env.py:462] Starting episode: 391
+I0513 13:23:02.956058  3712 sc2_env.py:632] Episode 391 finished after 14224 game steps. Outcome: [-1], reward: [-1], score: [3280]
+I0513 13:23:06.888184  3712 sc2_env.py:462] Starting episode: 392
+I0513 13:23:51.467791  3712 sc2_env.py:632] Episode 392 finished after 14632 game steps. Outcome: [-1], reward: [-1], score: [3780]
+I0513 13:23:55.393295  3712 sc2_env.py:462] Starting episode: 393
+I0513 13:24:36.946678  3712 sc2_env.py:632] Episode 393 finished after 13680 game steps. Outcome: [-1], reward: [-1], score: [3915]
+I0513 13:24:40.844848  3712 sc2_env.py:462] Starting episode: 394
+I0513 13:25:19.832132  3712 sc2_env.py:632] Episode 394 finished after 13608 game steps. Outcome: [-1], reward: [-1], score: [3775]
+I0513 13:25:23.684803  3712 sc2_env.py:462] Starting episode: 395
+I0513 13:26:26.193982  3712 sc2_env.py:632] Episode 395 finished after 17600 game steps. Outcome: [-1], reward: [-1], score: [4825]
+I0513 13:26:30.223596  3712 sc2_env.py:462] Starting episode: 396
+I0513 13:27:31.982788  3712 sc2_env.py:632] Episode 396 finished after 18632 game steps. Outcome: [-1], reward: [-1], score: [5425]
+I0513 13:27:35.858464  3712 sc2_env.py:462] Starting episode: 397
+I0513 13:28:15.746437  3712 sc2_env.py:632] Episode 397 finished after 13440 game steps. Outcome: [-1], reward: [-1], score: [3895]
+I0513 13:28:19.672729  3712 sc2_env.py:462] Starting episode: 398
+I0513 13:29:32.501240  3712 sc2_env.py:632] Episode 398 finished after 21776 game steps. Outcome: [-1], reward: [-1], score: [5735]
+I0513 13:29:36.360616  3712 sc2_env.py:462] Starting episode: 399
+I0513 13:31:06.668875  3712 sc2_env.py:632] Episode 399 finished after 22872 game steps. Outcome: [-1], reward: [-1], score: [6390]
+I0513 13:31:10.599942  3712 sc2_env.py:462] Starting episode: 400
+I0513 13:31:50.723593  3712 sc2_env.py:632] Episode 400 finished after 13192 game steps. Outcome: [-1], reward: [-1], score: [3265]
+I0513 13:31:54.993824  3712 sc2_env.py:462] Starting episode: 401
+I0513 13:32:31.309425  3712 sc2_env.py:632] Episode 401 finished after 12424 game steps. Outcome: [-1], reward: [-1], score: [2920]
+I0513 13:32:35.541776  3712 sc2_env.py:462] Starting episode: 402
+I0513 13:33:45.188547  3712 sc2_env.py:632] Episode 402 finished after 19920 game steps. Outcome: [-1], reward: [-1], score: [5035]
+I0513 13:33:49.403978  3712 sc2_env.py:462] Starting episode: 403
+I0513 13:34:29.161467  3712 sc2_env.py:632] Episode 403 finished after 12104 game steps. Outcome: [-1], reward: [-1], score: [4185]
+I0513 13:34:33.052865  3712 sc2_env.py:462] Starting episode: 404
+I0513 13:35:41.706948  3712 sc2_env.py:632] Episode 404 finished after 20936 game steps. Outcome: [-1], reward: [-1], score: [6805]
+I0513 13:35:45.621939  3712 sc2_env.py:462] Starting episode: 405
+I0513 13:36:25.358932  3712 sc2_env.py:632] Episode 405 finished after 12184 game steps. Outcome: [-1], reward: [-1], score: [3225]
+I0513 13:36:29.269976  3712 sc2_env.py:462] Starting episode: 406
+I0513 13:37:41.837114  3712 sc2_env.py:632] Episode 406 finished after 19800 game steps. Outcome: [-1], reward: [-1], score: [4655]
+I0513 13:37:45.781597  3712 sc2_env.py:462] Starting episode: 407
+I0513 13:38:57.817269  3712 sc2_env.py:632] Episode 407 finished after 19256 game steps. Outcome: [-1], reward: [-1], score: [3660]
+I0513 13:39:01.761309  3712 sc2_env.py:462] Starting episode: 408
+I0513 13:39:51.212002  3712 sc2_env.py:632] Episode 408 finished after 14928 game steps. Outcome: [-1], reward: [-1], score: [2945]
+I0513 13:39:55.077350  3712 sc2_env.py:462] Starting episode: 409
+I0513 13:41:47.062926  3712 sc2_env.py:632] Episode 409 finished after 28552 game steps. Outcome: [-1], reward: [-1], score: [5010]
+I0513 13:41:51.123231  3712 sc2_env.py:462] Starting episode: 410
+I0513 13:42:35.312034  3712 sc2_env.py:632] Episode 410 finished after 14264 game steps. Outcome: [-1], reward: [-1], score: [4150]
+I0513 13:42:39.285082  3712 sc2_env.py:462] Starting episode: 411
+I0513 13:43:18.166332  3712 sc2_env.py:632] Episode 411 finished after 11960 game steps. Outcome: [-1], reward: [-1], score: [3950]
+I0513 13:43:22.010525  3712 sc2_env.py:462] Starting episode: 412
+I0513 13:44:32.536576  3712 sc2_env.py:632] Episode 412 finished after 21408 game steps. Outcome: [-1], reward: [-1], score: [4610]
+I0513 13:44:36.412001  3712 sc2_env.py:462] Starting episode: 413
+I0513 13:45:38.866492  3712 sc2_env.py:632] Episode 413 finished after 18472 game steps. Outcome: [-1], reward: [-1], score: [4775]
+I0513 13:45:42.741715  3712 sc2_env.py:462] Starting episode: 414
+I0513 13:46:17.625812  3712 sc2_env.py:632] Episode 414 finished after 11864 game steps. Outcome: [-1], reward: [-1], score: [3785]
+I0513 13:46:21.516914  3712 sc2_env.py:462] Starting episode: 415
+I0513 13:47:03.825995  3712 sc2_env.py:632] Episode 415 finished after 14120 game steps. Outcome: [-1], reward: [-1], score: [3755]
+I0513 13:47:07.670208  3712 sc2_env.py:462] Starting episode: 416
+I0513 13:47:47.520386  3712 sc2_env.py:632] Episode 416 finished after 12952 game steps. Outcome: [-1], reward: [-1], score: [3125]
+I0513 13:47:51.413109  3712 sc2_env.py:462] Starting episode: 417
+I0513 13:48:34.959285  3712 sc2_env.py:632] Episode 417 finished after 12936 game steps. Outcome: [-1], reward: [-1], score: [3835]
+I0513 13:48:38.897558  3712 sc2_env.py:462] Starting episode: 418
+I0513 13:49:34.280162  3712 sc2_env.py:632] Episode 418 finished after 17272 game steps. Outcome: [-1], reward: [-1], score: [5215]
+I0513 13:49:38.235819  3712 sc2_env.py:462] Starting episode: 419
+I0513 13:50:15.486851  3712 sc2_env.py:632] Episode 419 finished after 12680 game steps. Outcome: [-1], reward: [-1], score: [3950]
+I0513 13:50:19.327161  3712 sc2_env.py:462] Starting episode: 420
+I0513 13:51:13.616590  3712 sc2_env.py:632] Episode 420 finished after 17176 game steps. Outcome: [-1], reward: [-1], score: [4905]
+I0513 13:51:17.480930  3712 sc2_env.py:462] Starting episode: 421
+I0513 13:52:09.516219  3712 sc2_env.py:632] Episode 421 finished after 16648 game steps. Outcome: [-1], reward: [-1], score: [2360]
+I0513 13:52:13.383263  3712 sc2_env.py:462] Starting episode: 422
+I0513 13:52:56.013687  3712 sc2_env.py:632] Episode 422 finished after 13976 game steps. Outcome: [-1], reward: [-1], score: [2360]
+I0513 13:52:59.892266  3712 sc2_env.py:462] Starting episode: 423
+I0513 13:53:58.743835  3712 sc2_env.py:632] Episode 423 finished after 17128 game steps. Outcome: [-1], reward: [-1], score: [3795]
+I0513 13:54:02.631947  3712 sc2_env.py:462] Starting episode: 424
+I0513 13:54:36.181724  3712 sc2_env.py:632] Episode 424 finished after 11776 game steps. Outcome: [-1], reward: [-1], score: [3340]
+I0513 13:54:40.072156  3712 sc2_env.py:462] Starting episode: 425
+I0513 13:55:43.049167  3712 sc2_env.py:632] Episode 425 finished after 19424 game steps. Outcome: [-1], reward: [-1], score: [4820]
+I0513 13:55:46.960044  3712 sc2_env.py:462] Starting episode: 426
+I0513 13:56:26.949026  3712 sc2_env.py:632] Episode 426 finished after 13192 game steps. Outcome: [-1], reward: [-1], score: [3900]
+I0513 13:56:30.867962  3712 sc2_env.py:462] Starting episode: 427
+I0513 13:57:12.427990  3712 sc2_env.py:632] Episode 427 finished after 12968 game steps. Outcome: [-1], reward: [-1], score: [2830]
+I0513 13:57:16.296047  3712 sc2_env.py:462] Starting episode: 428
+I0513 13:58:06.801758  3712 sc2_env.py:632] Episode 428 finished after 15864 game steps. Outcome: [-1], reward: [-1], score: [2600]
+I0513 13:58:10.762171  3712 sc2_env.py:462] Starting episode: 429
+I0513 13:58:45.817224  3712 sc2_env.py:632] Episode 429 finished after 12128 game steps. Outcome: [-1], reward: [-1], score: [3385]
+I0513 13:58:49.691381  3712 sc2_env.py:462] Starting episode: 430
+I0513 13:59:41.110635  3712 sc2_env.py:632] Episode 430 finished after 16112 game steps. Outcome: [-1], reward: [-1], score: [3405]
+I0513 13:59:45.057935  3712 sc2_env.py:462] Starting episode: 431
+I0513 14:00:28.595310  3712 sc2_env.py:632] Episode 431 finished after 14440 game steps. Outcome: [-1], reward: [-1], score: [3670]
+I0513 14:00:32.488005  3712 sc2_env.py:462] Starting episode: 432
+I0513 14:01:19.339899  3712 sc2_env.py:632] Episode 432 finished after 15728 game steps. Outcome: [-1], reward: [-1], score: [4145]
+I0513 14:01:23.156575  3712 sc2_env.py:462] Starting episode: 433
+I0513 14:02:05.501955  3712 sc2_env.py:632] Episode 433 finished after 14480 game steps. Outcome: [-1], reward: [-1], score: [3320]
+I0513 14:02:09.449510  3712 sc2_env.py:462] Starting episode: 434
+I0513 14:02:56.106791  3712 sc2_env.py:632] Episode 434 finished after 15760 game steps. Outcome: [-1], reward: [-1], score: [2145]
+I0513 14:02:59.950468  3712 sc2_env.py:462] Starting episode: 435
+I0513 14:03:59.500711  3712 sc2_env.py:632] Episode 435 finished after 18280 game steps. Outcome: [-1], reward: [-1], score: [4470]
+I0513 14:04:03.442587  3712 sc2_env.py:462] Starting episode: 436
+I0513 14:04:48.509775  3712 sc2_env.py:632] Episode 436 finished after 12984 game steps. Outcome: [-1], reward: [-1], score: [3665]
+I0513 14:04:52.491219  3712 sc2_env.py:462] Starting episode: 437
+I0513 14:05:54.922330  3712 sc2_env.py:632] Episode 437 finished after 18656 game steps. Outcome: [-1], reward: [-1], score: [4130]
+I0513 14:05:58.865122  3712 sc2_env.py:462] Starting episode: 438
+I0513 14:07:21.021342  3712 sc2_env.py:632] Episode 438 finished after 24560 game steps. Outcome: [-1], reward: [-1], score: [5090]
+I0513 14:07:24.920577  3712 sc2_env.py:462] Starting episode: 439
+I0513 14:08:04.349727  3712 sc2_env.py:632] Episode 439 finished after 13208 game steps. Outcome: [-1], reward: [-1], score: [3690]
+I0513 14:08:08.204329  3712 sc2_env.py:462] Starting episode: 440
+I0513 14:09:02.830734  3712 sc2_env.py:632] Episode 440 finished after 17120 game steps. Outcome: [-1], reward: [-1], score: [5390]
+I0513 14:09:06.825317  3712 sc2_env.py:462] Starting episode: 441
+I0513 14:10:03.973442  3712 sc2_env.py:632] Episode 441 finished after 15528 game steps. Outcome: [-1], reward: [-1], score: [4955]
+I0513 14:10:07.965782  3712 sc2_env.py:462] Starting episode: 442
+I0513 14:10:47.623716  3712 sc2_env.py:632] Episode 442 finished after 13312 game steps. Outcome: [-1], reward: [-1], score: [3980]
+I0513 14:10:51.501036  3712 sc2_env.py:462] Starting episode: 443
+I0513 14:11:50.382992  3712 sc2_env.py:632] Episode 443 finished after 18120 game steps. Outcome: [-1], reward: [-1], score: [4510]
+I0513 14:11:54.336965  3712 sc2_env.py:462] Starting episode: 444
+I0513 14:12:56.271677  3712 sc2_env.py:632] Episode 444 finished after 18184 game steps. Outcome: [-1], reward: [-1], score: [4060]
+I0513 14:13:00.188575  3712 sc2_env.py:462] Starting episode: 445
+I0513 14:13:40.097716  3712 sc2_env.py:632] Episode 445 finished after 13520 game steps. Outcome: [-1], reward: [-1], score: [3365]
+I0513 14:13:44.002303  3712 sc2_env.py:462] Starting episode: 446
+I0513 14:14:55.012772  3712 sc2_env.py:632] Episode 446 finished after 21824 game steps. Outcome: [-1], reward: [-1], score: [4550]
+I0513 14:14:58.857211  3712 sc2_env.py:462] Starting episode: 447
+I0513 14:16:45.201318  3712 sc2_env.py:632] Episode 447 finished after 26976 game steps. Outcome: [-1], reward: [-1], score: [5975]
+I0513 14:16:49.059177  3712 sc2_env.py:462] Starting episode: 448
+I0513 14:17:24.173830  3712 sc2_env.py:632] Episode 448 finished after 12072 game steps. Outcome: [-1], reward: [-1], score: [4155]
+I0513 14:17:28.082754  3712 sc2_env.py:462] Starting episode: 449
+I0513 14:18:43.135107  3712 sc2_env.py:632] Episode 449 finished after 19800 game steps. Outcome: [-1], reward: [-1], score: [5310]
+I0513 14:18:47.073100  3712 sc2_env.py:462] Starting episode: 450
+I0513 14:20:03.662219  3712 sc2_env.py:632] Episode 450 finished after 18904 game steps. Outcome: [-1], reward: [-1], score: [4955]
+I0513 14:20:07.586180  3712 sc2_env.py:462] Starting episode: 451
+I0513 14:20:45.134083  3712 sc2_env.py:632] Episode 451 finished after 11464 game steps. Outcome: [-1], reward: [-1], score: [3385]
+I0513 14:20:49.093053  3712 sc2_env.py:462] Starting episode: 452
+I0513 14:22:20.850746  3712 sc2_env.py:632] Episode 452 finished after 24128 game steps. Outcome: [-1], reward: [-1], score: [5000]
+I0513 14:22:24.742312  3712 sc2_env.py:462] Starting episode: 453
+I0513 14:23:18.278743  3712 sc2_env.py:632] Episode 453 finished after 17320 game steps. Outcome: [-1], reward: [-1], score: [3190]
+I0513 14:23:22.190865  3712 sc2_env.py:462] Starting episode: 454
+I0513 14:24:02.919939  3712 sc2_env.py:632] Episode 454 finished after 13688 game steps. Outcome: [-1], reward: [-1], score: [3510]
+I0513 14:24:06.777318  3712 sc2_env.py:462] Starting episode: 455
+I0513 14:25:35.253839  3712 sc2_env.py:632] Episode 455 finished after 22736 game steps. Outcome: [-1], reward: [-1], score: [6445]
+I0513 14:25:39.165783  3712 sc2_env.py:462] Starting episode: 456
+I0513 14:26:34.370308  3712 sc2_env.py:632] Episode 456 finished after 18520 game steps. Outcome: [-1], reward: [-1], score: [2525]
+I0513 14:26:38.271182  3712 sc2_env.py:462] Starting episode: 457
+I0513 14:27:38.620474  3712 sc2_env.py:632] Episode 457 finished after 16000 game steps. Outcome: [-1], reward: [-1], score: [5485]
+I0513 14:27:42.579444  3712 sc2_env.py:462] Starting episode: 458
+I0513 14:28:27.270298  3712 sc2_env.py:632] Episode 458 finished after 14856 game steps. Outcome: [-1], reward: [-1], score: [3670]
+I0513 14:28:31.158090  3712 sc2_env.py:462] Starting episode: 459
+I0513 14:29:31.921211  3712 sc2_env.py:632] Episode 459 finished after 17416 game steps. Outcome: [-1], reward: [-1], score: [4595]
+I0513 14:29:35.876745  3712 sc2_env.py:462] Starting episode: 460
+I0513 14:30:55.204100  3712 sc2_env.py:632] Episode 460 finished after 20552 game steps. Outcome: [-1], reward: [-1], score: [5795]
+I0513 14:30:59.166054  3712 sc2_env.py:462] Starting episode: 461
+I0513 14:31:48.651540  3712 sc2_env.py:632] Episode 461 finished after 15104 game steps. Outcome: [-1], reward: [-1], score: [3100]
+I0513 14:31:52.495006  3712 sc2_env.py:462] Starting episode: 462
+I0513 14:33:08.055454  3712 sc2_env.py:632] Episode 462 finished after 20976 game steps. Outcome: [-1], reward: [-1], score: [5410]
+I0513 14:33:11.946041  3712 sc2_env.py:462] Starting episode: 463
+I0513 14:33:52.850198  3712 sc2_env.py:632] Episode 463 finished after 14048 game steps. Outcome: [-1], reward: [-1], score: [3150]
+I0513 14:33:56.753835  3712 sc2_env.py:462] Starting episode: 464
+I0513 14:34:47.575852  3712 sc2_env.py:632] Episode 464 finished after 16208 game steps. Outcome: [-1], reward: [-1], score: [3850]
+I0513 14:34:51.447415  3712 sc2_env.py:462] Starting episode: 465
+I0513 14:35:21.220776  3712 sc2_env.py:632] Episode 465 finished after 9272 game steps. Outcome: [-1], reward: [-1], score: [3145]
+I0513 14:35:25.119819  3712 sc2_env.py:462] Starting episode: 466
+I0513 14:36:32.743358  3712 sc2_env.py:632] Episode 466 finished after 20880 game steps. Outcome: [-1], reward: [-1], score: [5595]
+I0513 14:36:36.592124  3712 sc2_env.py:462] Starting episode: 467
+I0513 14:37:18.719841  3712 sc2_env.py:632] Episode 467 finished after 14192 game steps. Outcome: [-1], reward: [-1], score: [3950]
+I0513 14:37:22.581106  3712 sc2_env.py:462] Starting episode: 468
+I0513 14:38:07.513529  3712 sc2_env.py:632] Episode 468 finished after 15032 game steps. Outcome: [-1], reward: [-1], score: [3400]
+I0513 14:38:11.422199  3712 sc2_env.py:462] Starting episode: 469
+I0513 14:38:57.275180  3712 sc2_env.py:632] Episode 469 finished after 14896 game steps. Outcome: [-1], reward: [-1], score: [3105]
+I0513 14:39:01.193019  3712 sc2_env.py:462] Starting episode: 470
+I0513 14:40:06.912014  3712 sc2_env.py:632] Episode 470 finished after 16912 game steps. Outcome: [-1], reward: [-1], score: [6060]
+I0513 14:40:10.811123  3712 sc2_env.py:462] Starting episode: 471
+I0513 14:40:53.016919  3712 sc2_env.py:632] Episode 471 finished after 13584 game steps. Outcome: [-1], reward: [-1], score: [2645]
+I0513 14:40:56.904157  3712 sc2_env.py:462] Starting episode: 472
+I0513 14:41:54.436779  3712 sc2_env.py:632] Episode 472 finished after 17696 game steps. Outcome: [-1], reward: [-1], score: [4595]
+I0513 14:41:58.401245  3712 sc2_env.py:462] Starting episode: 473
+I0513 14:43:22.007644  3712 sc2_env.py:632] Episode 473 finished after 22304 game steps. Outcome: [-1], reward: [-1], score: [6745]
+I0513 14:43:25.915077  3712 sc2_env.py:462] Starting episode: 474
+I0513 14:44:40.389746  3712 sc2_env.py:632] Episode 474 finished after 20072 game steps. Outcome: [-1], reward: [-1], score: [5780]
+I0513 14:44:44.331133  3712 sc2_env.py:462] Starting episode: 475
+I0513 14:46:06.832037  3712 sc2_env.py:632] Episode 475 finished after 24600 game steps. Outcome: [-1], reward: [-1], score: [5460]
+I0513 14:46:10.756583  3712 sc2_env.py:462] Starting episode: 476
+I0513 14:46:56.287166  3712 sc2_env.py:632] Episode 476 finished after 14848 game steps. Outcome: [-1], reward: [-1], score: [3865]
+I0513 14:47:00.172574  3712 sc2_env.py:462] Starting episode: 477
+I0513 14:47:59.339285  3712 sc2_env.py:632] Episode 477 finished after 18048 game steps. Outcome: [-1], reward: [-1], score: [4540]
+I0513 14:48:03.177223  3712 sc2_env.py:462] Starting episode: 478
+I0513 14:49:21.454088  3712 sc2_env.py:632] Episode 478 finished after 21208 game steps. Outcome: [-1], reward: [-1], score: [4070]
+I0513 14:49:25.337790  3712 sc2_env.py:462] Starting episode: 479
+I0513 14:50:30.567288  3712 sc2_env.py:632] Episode 479 finished after 19488 game steps. Outcome: [-1], reward: [-1], score: [3335]
+I0513 14:50:34.369017  3712 sc2_env.py:462] Starting episode: 480
+I0513 14:51:20.156430  3712 sc2_env.py:632] Episode 480 finished after 13640 game steps. Outcome: [-1], reward: [-1], score: [2165]
+I0513 14:51:24.031570  3712 sc2_env.py:462] Starting episode: 481
+I0513 14:52:09.722279  3712 sc2_env.py:632] Episode 481 finished after 13696 game steps. Outcome: [-1], reward: [-1], score: [4165]
+I0513 14:52:13.582855  3712 sc2_env.py:462] Starting episode: 482
+I0513 14:53:15.144118  3712 sc2_env.py:632] Episode 482 finished after 18720 game steps. Outcome: [-1], reward: [-1], score: [3400]
+I0513 14:53:19.011755  3712 sc2_env.py:462] Starting episode: 483
+I0513 14:54:25.613700  3712 sc2_env.py:632] Episode 483 finished after 20368 game steps. Outcome: [-1], reward: [-1], score: [6100]
+I0513 14:54:29.556270  3712 sc2_env.py:462] Starting episode: 484
+I0513 14:55:25.425155  3712 sc2_env.py:632] Episode 484 finished after 16688 game steps. Outcome: [-1], reward: [-1], score: [3340]
+I0513 14:55:29.301981  3712 sc2_env.py:462] Starting episode: 485
+I0513 14:56:17.250216  3712 sc2_env.py:632] Episode 485 finished after 15184 game steps. Outcome: [-1], reward: [-1], score: [3150]
+I0513 14:56:21.125747  3712 sc2_env.py:462] Starting episode: 486
+I0513 14:57:18.127763  3712 sc2_env.py:632] Episode 486 finished after 17152 game steps. Outcome: [-1], reward: [-1], score: [4570]
+I0513 14:57:22.093459  3712 sc2_env.py:462] Starting episode: 487
+I0513 14:58:30.155355  3712 sc2_env.py:632] Episode 487 finished after 18576 game steps. Outcome: [-1], reward: [-1], score: [4805]
+I0513 14:58:34.031103  3712 sc2_env.py:462] Starting episode: 488
+I0513 14:59:30.595591  3712 sc2_env.py:632] Episode 488 finished after 18232 game steps. Outcome: [-1], reward: [-1], score: [4785]
+I0513 14:59:34.525301  3712 sc2_env.py:462] Starting episode: 489
+I0513 15:00:25.796000  3712 sc2_env.py:632] Episode 489 finished after 15112 game steps. Outcome: [-1], reward: [-1], score: [2680]
+I0513 15:00:29.662634  3712 sc2_env.py:462] Starting episode: 490
+I0513 15:01:09.852027  3712 sc2_env.py:632] Episode 490 finished after 13240 game steps. Outcome: [-1], reward: [-1], score: [3645]
+I0513 15:01:13.799906  3712 sc2_env.py:462] Starting episode: 491
+I0513 15:01:56.068542  3712 sc2_env.py:632] Episode 491 finished after 12584 game steps. Outcome: [-1], reward: [-1], score: [3600]
+I0513 15:01:59.985514  3712 sc2_env.py:462] Starting episode: 492
+I0513 15:03:06.051218  3712 sc2_env.py:632] Episode 492 finished after 18680 game steps. Outcome: [-1], reward: [-1], score: [4675]
+I0513 15:03:09.921346  3712 sc2_env.py:462] Starting episode: 493
+I0513 15:04:16.434624  3712 sc2_env.py:632] Episode 493 finished after 20312 game steps. Outcome: [-1], reward: [-1], score: [4320]
+I0513 15:04:20.255037  3712 sc2_env.py:462] Starting episode: 494
+I0513 15:05:24.740278  3712 sc2_env.py:632] Episode 494 finished after 19224 game steps. Outcome: [-1], reward: [-1], score: [4675]
+I0513 15:05:28.663861  3712 sc2_env.py:462] Starting episode: 495
+I0513 15:06:01.522618  3712 sc2_env.py:632] Episode 495 finished after 10520 game steps. Outcome: [-1], reward: [-1], score: [3170]
+I0513 15:06:05.452650  3712 sc2_env.py:462] Starting episode: 496
+I0513 15:06:51.976490  3712 sc2_env.py:632] Episode 496 finished after 15504 game steps. Outcome: [-1], reward: [-1], score: [3125]
+I0513 15:06:55.850714  3712 sc2_env.py:462] Starting episode: 497
+I0513 15:07:35.002368  3712 sc2_env.py:632] Episode 497 finished after 12928 game steps. Outcome: [-1], reward: [-1], score: [3390]
+I0513 15:07:38.898490  3712 sc2_env.py:462] Starting episode: 498
+I0513 15:08:46.846198  3712 sc2_env.py:632] Episode 498 finished after 18424 game steps. Outcome: [-1], reward: [-1], score: [3955]
+I0513 15:08:50.748991  3712 sc2_env.py:462] Starting episode: 499
+I0513 15:09:43.642702  3712 sc2_env.py:632] Episode 499 finished after 16624 game steps. Outcome: [-1], reward: [-1], score: [3100]
+I0513 15:09:47.601523  3712 sc2_env.py:462] Starting episode: 500
+I0513 15:10:32.152651  3712 sc2_env.py:632] Episode 500 finished after 13192 game steps. Outcome: [-1], reward: [-1], score: [4295]
+I0513 15:10:36.260200  3712 sc2_env.py:462] Starting episode: 501
+I0513 15:11:33.566688  3712 sc2_env.py:632] Episode 501 finished after 17728 game steps. Outcome: [-1], reward: [-1], score: [5010]
+I0513 15:11:37.836714  3712 sc2_env.py:462] Starting episode: 502
+I0513 15:12:42.209886  3712 sc2_env.py:632] Episode 502 finished after 16856 game steps. Outcome: [-1], reward: [-1], score: [5725]
+I0513 15:12:46.268235  3712 sc2_env.py:462] Starting episode: 503
+I0513 15:13:28.218881  3712 sc2_env.py:632] Episode 503 finished after 13128 game steps. Outcome: [-1], reward: [-1], score: [2725]
+I0513 15:13:32.114947  3712 sc2_env.py:462] Starting episode: 504
+I0513 15:14:07.774469  3712 sc2_env.py:632] Episode 504 finished after 11552 game steps. Outcome: [-1], reward: [-1], score: [3840]
+I0513 15:14:11.648155  3712 sc2_env.py:462] Starting episode: 505
+I0513 15:15:20.326261  3712 sc2_env.py:632] Episode 505 finished after 18448 game steps. Outcome: [-1], reward: [-1], score: [4585]
+I0513 15:15:24.305006  3712 sc2_env.py:462] Starting episode: 506
+I0513 15:16:07.498055  3712 sc2_env.py:632] Episode 506 finished after 14080 game steps. Outcome: [-1], reward: [-1], score: [3805]
+I0513 15:16:11.595866  3712 sc2_env.py:462] Starting episode: 507
+I0513 15:17:36.157551  3712 sc2_env.py:632] Episode 507 finished after 23392 game steps. Outcome: [-1], reward: [-1], score: [6785]
+I0513 15:17:40.127632  3712 sc2_env.py:462] Starting episode: 508
+I0513 15:18:35.372437  3712 sc2_env.py:632] Episode 508 finished after 16544 game steps. Outcome: [-1], reward: [-1], score: [4465]
+I0513 15:18:39.256618  3712 sc2_env.py:462] Starting episode: 509
+I0513 15:19:40.110465  3712 sc2_env.py:632] Episode 509 finished after 17840 game steps. Outcome: [-1], reward: [-1], score: [4630]
+I0513 15:19:44.002932  3712 sc2_env.py:462] Starting episode: 510
+I0513 15:20:26.317088  3712 sc2_env.py:632] Episode 510 finished after 12600 game steps. Outcome: [-1], reward: [-1], score: [3980]
+I0513 15:20:30.238963  3712 sc2_env.py:462] Starting episode: 511
+I0513 15:21:29.538320  3712 sc2_env.py:632] Episode 511 finished after 17792 game steps. Outcome: [-1], reward: [-1], score: [4735]
+I0513 15:21:33.472058  3712 sc2_env.py:462] Starting episode: 512
+I0513 15:22:19.747147  3712 sc2_env.py:632] Episode 512 finished after 15072 game steps. Outcome: [-1], reward: [-1], score: [3790]
+I0513 15:22:23.686798  3712 sc2_env.py:462] Starting episode: 513
+I0513 15:23:37.956994  3712 sc2_env.py:632] Episode 513 finished after 20400 game steps. Outcome: [-1], reward: [-1], score: [7230]
+I0513 15:23:41.842912  3712 sc2_env.py:462] Starting episode: 514
+I0513 15:24:25.110104  3712 sc2_env.py:632] Episode 514 finished after 14144 game steps. Outcome: [-1], reward: [-1], score: [3495]
+I0513 15:24:29.062652  3712 sc2_env.py:462] Starting episode: 515
+I0513 15:25:28.770497  3712 sc2_env.py:632] Episode 515 finished after 18408 game steps. Outcome: [-1], reward: [-1], score: [4415]
+I0513 15:25:32.621758  3712 sc2_env.py:462] Starting episode: 516
+I0513 15:26:28.863539  3712 sc2_env.py:632] Episode 516 finished after 16712 game steps. Outcome: [-1], reward: [-1], score: [5330]
+I0513 15:26:32.715778  3712 sc2_env.py:462] Starting episode: 517
+I0513 15:27:23.398194  3712 sc2_env.py:632] Episode 517 finished after 16136 game steps. Outcome: [-1], reward: [-1], score: [3800]
+I0513 15:27:27.293208  3712 sc2_env.py:462] Starting episode: 518
+I0513 15:28:02.610926  3712 sc2_env.py:632] Episode 518 finished after 12488 game steps. Outcome: [-1], reward: [-1], score: [2755]
+I0513 15:28:06.462452  3712 sc2_env.py:462] Starting episode: 519
+I0513 15:29:10.712058  3712 sc2_env.py:632] Episode 519 finished after 19976 game steps. Outcome: [-1], reward: [-1], score: [5185]
+I0513 15:29:14.607043  3712 sc2_env.py:462] Starting episode: 520
+I0513 15:30:11.748782  3712 sc2_env.py:632] Episode 520 finished after 15288 game steps. Outcome: [-1], reward: [-1], score: [4020]
+I0513 15:30:15.679932  3712 sc2_env.py:462] Starting episode: 521
+I0513 15:30:59.412083  3712 sc2_env.py:632] Episode 521 finished after 14648 game steps. Outcome: [-1], reward: [-1], score: [3615]
+I0513 15:31:03.260916  3712 sc2_env.py:462] Starting episode: 522
+I0513 15:31:48.166923  3712 sc2_env.py:632] Episode 522 finished after 13688 game steps. Outcome: [-1], reward: [-1], score: [3725]
+I0513 15:31:52.030880  3712 sc2_env.py:462] Starting episode: 523
+I0513 15:33:10.270189  3712 sc2_env.py:632] Episode 523 finished after 20192 game steps. Outcome: [-1], reward: [-1], score: [6235]
+I0513 15:33:14.156815  3712 sc2_env.py:462] Starting episode: 524
+I0513 15:34:18.204500  3712 sc2_env.py:632] Episode 524 finished after 20032 game steps. Outcome: [-1], reward: [-1], score: [2995]
+I0513 15:34:21.997298  3712 sc2_env.py:462] Starting episode: 525
+I0513 15:35:03.225235  3712 sc2_env.py:632] Episode 525 finished after 12664 game steps. Outcome: [-1], reward: [-1], score: [3375]
+I0513 15:35:07.185385  3712 sc2_env.py:462] Starting episode: 526
+I0513 15:35:53.539995  3712 sc2_env.py:632] Episode 526 finished after 15952 game steps. Outcome: [-1], reward: [-1], score: [3540]
+I0513 15:35:57.439246  3712 sc2_env.py:462] Starting episode: 527
+I0513 15:37:00.013284  3712 sc2_env.py:632] Episode 527 finished after 19008 game steps. Outcome: [-1], reward: [-1], score: [3790]
+I0513 15:37:03.868076  3712 sc2_env.py:462] Starting episode: 528
+I0513 15:38:07.571104  3712 sc2_env.py:632] Episode 528 finished after 17472 game steps. Outcome: [-1], reward: [-1], score: [4730]
+I0513 15:38:11.436181  3712 sc2_env.py:462] Starting episode: 529
+I0513 15:39:13.557412  3712 sc2_env.py:632] Episode 529 finished after 17080 game steps. Outcome: [-1], reward: [-1], score: [4175]
+I0513 15:39:17.444937  3712 sc2_env.py:462] Starting episode: 530
+I0513 15:40:01.366845  3712 sc2_env.py:632] Episode 530 finished after 13176 game steps. Outcome: [-1], reward: [-1], score: [3065]
+I0513 15:40:05.240198  3712 sc2_env.py:462] Starting episode: 531
+I0513 15:40:45.597516  3712 sc2_env.py:632] Episode 531 finished after 13552 game steps. Outcome: [-1], reward: [-1], score: [4015]
+I0513 15:40:49.505235  3712 sc2_env.py:462] Starting episode: 532
+I0513 15:41:27.901548  3712 sc2_env.py:632] Episode 532 finished after 13144 game steps. Outcome: [-1], reward: [-1], score: [4410]
+I0513 15:41:31.826583  3712 sc2_env.py:462] Starting episode: 533
+I0513 15:42:33.280072  3712 sc2_env.py:632] Episode 533 finished after 18216 game steps. Outcome: [-1], reward: [-1], score: [3365]
+I0513 15:42:37.230891  3712 sc2_env.py:462] Starting episode: 534
+I0513 15:43:18.618432  3712 sc2_env.py:632] Episode 534 finished after 12824 game steps. Outcome: [-1], reward: [-1], score: [3040]
+I0513 15:43:22.502128  3712 sc2_env.py:462] Starting episode: 535
+I0513 15:44:08.648733  3712 sc2_env.py:632] Episode 535 finished after 13592 game steps. Outcome: [-1], reward: [-1], score: [3970]
+I0513 15:44:12.548131  3712 sc2_env.py:462] Starting episode: 536
+I0513 15:45:19.568561  3712 sc2_env.py:632] Episode 536 finished after 20656 game steps. Outcome: [-1], reward: [-1], score: [5660]
+I0513 15:45:23.449680  3712 sc2_env.py:462] Starting episode: 537
+I0513 15:46:30.428335  3712 sc2_env.py:632] Episode 537 finished after 19432 game steps. Outcome: [-1], reward: [-1], score: [4890]
+I0513 15:46:34.357821  3712 sc2_env.py:462] Starting episode: 538
+I0513 15:47:32.169354  3712 sc2_env.py:632] Episode 538 finished after 17832 game steps. Outcome: [-1], reward: [-1], score: [4295]
+I0513 15:47:36.088056  3712 sc2_env.py:462] Starting episode: 539
+I0513 15:49:09.373034  3712 sc2_env.py:632] Episode 539 finished after 24936 game steps. Outcome: [-1], reward: [-1], score: [5450]
+I0513 15:49:13.367663  3712 sc2_env.py:462] Starting episode: 540
+I0513 15:49:53.856188  3712 sc2_env.py:632] Episode 540 finished after 12368 game steps. Outcome: [-1], reward: [-1], score: [4100]
+I0513 15:49:57.832065  3712 sc2_env.py:462] Starting episode: 541
+I0513 15:50:34.801692  3712 sc2_env.py:632] Episode 541 finished after 12480 game steps. Outcome: [-1], reward: [-1], score: [3295]
+I0513 15:50:38.724108  3712 sc2_env.py:462] Starting episode: 542
+I0513 15:51:27.439081  3712 sc2_env.py:632] Episode 542 finished after 16048 game steps. Outcome: [-1], reward: [-1], score: [3040]
+I0513 15:51:31.317277  3712 sc2_env.py:462] Starting episode: 543
+I0513 15:52:38.714832  3712 sc2_env.py:632] Episode 543 finished after 18336 game steps. Outcome: [-1], reward: [-1], score: [5475]
+I0513 15:52:42.591536  3712 sc2_env.py:462] Starting episode: 544
+I0513 15:53:21.395679  3712 sc2_env.py:632] Episode 544 finished after 12728 game steps. Outcome: [-1], reward: [-1], score: [3670]
+I0513 15:53:25.296278  3712 sc2_env.py:462] Starting episode: 545
+I0513 15:54:11.990368  3712 sc2_env.py:632] Episode 545 finished after 15000 game steps. Outcome: [-1], reward: [-1], score: [3520]
+I0513 15:54:15.913921  3712 sc2_env.py:462] Starting episode: 546
+I0513 15:55:20.567051  3712 sc2_env.py:632] Episode 546 finished after 17680 game steps. Outcome: [-1], reward: [-1], score: [4050]
+I0513 15:55:24.412442  3712 sc2_env.py:462] Starting episode: 547
+I0513 15:56:26.048083  3712 sc2_env.py:632] Episode 547 finished after 17296 game steps. Outcome: [-1], reward: [-1], score: [4530]
+I0513 15:56:29.874568  3712 sc2_env.py:462] Starting episode: 548
+I0513 15:57:31.518860  3712 sc2_env.py:632] Episode 548 finished after 18016 game steps. Outcome: [-1], reward: [-1], score: [4520]
+I0513 15:57:35.422954  3712 sc2_env.py:462] Starting episode: 549
+I0513 15:58:36.272248  3712 sc2_env.py:632] Episode 549 finished after 17176 game steps. Outcome: [-1], reward: [-1], score: [4335]
+I0513 15:58:40.208585  3712 sc2_env.py:462] Starting episode: 550
+I0513 15:59:54.478254  3712 sc2_env.py:632] Episode 550 finished after 22000 game steps. Outcome: [-1], reward: [-1], score: [3180]
+I0513 15:59:58.341662  3712 sc2_env.py:462] Starting episode: 551
+I0513 16:00:45.311417  3712 sc2_env.py:632] Episode 551 finished after 15720 game steps. Outcome: [-1], reward: [-1], score: [2735]
+I0513 16:00:49.218219  3712 sc2_env.py:462] Starting episode: 552
+I0513 16:02:12.401149  3712 sc2_env.py:632] Episode 552 finished after 28248 game steps. Outcome: [1], reward: [1], score: [10050]
+I0513 16:02:16.588567  3712 sc2_env.py:462] Starting episode: 553
+I0513 16:03:02.817580  3712 sc2_env.py:632] Episode 553 finished after 15176 game steps. Outcome: [-1], reward: [-1], score: [3950]
+I0513 16:03:06.771823  3712 sc2_env.py:462] Starting episode: 554
+I0513 16:04:06.111334  3712 sc2_env.py:632] Episode 554 finished after 15304 game steps. Outcome: [-1], reward: [-1], score: [4800]
+I0513 16:04:10.047421  3712 sc2_env.py:462] Starting episode: 555
+I0513 16:05:01.614948  3712 sc2_env.py:632] Episode 555 finished after 16696 game steps. Outcome: [-1], reward: [-1], score: [3820]
+I0513 16:05:05.529211  3712 sc2_env.py:462] Starting episode: 556
+I0513 16:05:45.963628  3712 sc2_env.py:632] Episode 556 finished after 12296 game steps. Outcome: [-1], reward: [-1], score: [3850]
+I0513 16:05:49.849145  3712 sc2_env.py:462] Starting episode: 557
+I0513 16:06:46.885402  3712 sc2_env.py:632] Episode 557 finished after 18016 game steps. Outcome: [-1], reward: [-1], score: [5315]
+I0513 16:06:50.778347  3712 sc2_env.py:462] Starting episode: 558
+I0513 16:07:33.709700  3712 sc2_env.py:632] Episode 558 finished after 12688 game steps. Outcome: [-1], reward: [-1], score: [3670]
+I0513 16:07:37.643824  3712 sc2_env.py:462] Starting episode: 559
+I0513 16:08:41.548673  3712 sc2_env.py:632] Episode 559 finished after 19072 game steps. Outcome: [-1], reward: [-1], score: [4480]
+I0513 16:08:45.461219  3712 sc2_env.py:462] Starting episode: 560
+I0513 16:09:50.187031  3712 sc2_env.py:632] Episode 560 finished after 19568 game steps. Outcome: [-1], reward: [-1], score: [4440]
+I0513 16:09:54.072597  3712 sc2_env.py:462] Starting episode: 561
+I0513 16:10:31.681865  3712 sc2_env.py:632] Episode 561 finished after 11856 game steps. Outcome: [-1], reward: [-1], score: [2415]
+I0513 16:10:35.562137  3712 sc2_env.py:462] Starting episode: 562
+I0513 16:11:45.689093  3712 sc2_env.py:632] Episode 562 finished after 21208 game steps. Outcome: [-1], reward: [-1], score: [4555]
+I0513 16:11:49.610914  3712 sc2_env.py:462] Starting episode: 563
+I0513 16:12:23.693689  3712 sc2_env.py:632] Episode 563 finished after 12024 game steps. Outcome: [-1], reward: [-1], score: [3680]
+I0513 16:12:27.604005  3712 sc2_env.py:462] Starting episode: 564
+I0513 16:13:34.926807  3712 sc2_env.py:632] Episode 564 finished after 19728 game steps. Outcome: [-1], reward: [-1], score: [6045]
+I0513 16:13:38.846866  3712 sc2_env.py:462] Starting episode: 565
+I0513 16:14:18.393074  3712 sc2_env.py:632] Episode 565 finished after 12744 game steps. Outcome: [-1], reward: [-1], score: [3030]
+I0513 16:14:22.278225  3712 sc2_env.py:462] Starting episode: 566
+I0513 16:15:01.373544  3712 sc2_env.py:632] Episode 566 finished after 12208 game steps. Outcome: [-1], reward: [-1], score: [4230]
+I0513 16:15:05.279446  3712 sc2_env.py:462] Starting episode: 567
+I0513 16:16:14.149965  3712 sc2_env.py:632] Episode 567 finished after 20560 game steps. Outcome: [-1], reward: [-1], score: [4905]
+I0513 16:16:18.072423  3712 sc2_env.py:462] Starting episode: 568
+I0513 16:17:02.737262  3712 sc2_env.py:632] Episode 568 finished after 15040 game steps. Outcome: [-1], reward: [-1], score: [2805]
+I0513 16:17:06.603812  3712 sc2_env.py:462] Starting episode: 569
+I0513 16:17:52.996455  3712 sc2_env.py:632] Episode 569 finished after 13688 game steps. Outcome: [-1], reward: [-1], score: [3700]
+I0513 16:17:56.965186  3712 sc2_env.py:462] Starting episode: 570
+I0513 16:18:40.121578  3712 sc2_env.py:632] Episode 570 finished after 12856 game steps. Outcome: [-1], reward: [-1], score: [2910]
+I0513 16:18:44.032643  3712 sc2_env.py:462] Starting episode: 571
+I0513 16:19:29.087046  3712 sc2_env.py:632] Episode 571 finished after 14736 game steps. Outcome: [-1], reward: [-1], score: [2320]
+I0513 16:19:32.916516  3712 sc2_env.py:462] Starting episode: 572
+I0513 16:20:19.938152  3712 sc2_env.py:632] Episode 572 finished after 13704 game steps. Outcome: [-1], reward: [-1], score: [4675]
+I0513 16:20:23.900095  3712 sc2_env.py:462] Starting episode: 573
+I0513 16:21:17.183569  3712 sc2_env.py:632] Episode 573 finished after 16312 game steps. Outcome: [-1], reward: [-1], score: [4180]
+I0513 16:21:21.054066  3712 sc2_env.py:462] Starting episode: 574
+I0513 16:22:28.372611  3712 sc2_env.py:632] Episode 574 finished after 18824 game steps. Outcome: [-1], reward: [-1], score: [4865]
+I0513 16:22:32.241082  3712 sc2_env.py:462] Starting episode: 575
+I0513 16:23:11.288227  3712 sc2_env.py:632] Episode 575 finished after 12320 game steps. Outcome: [-1], reward: [-1], score: [4655]
+I0513 16:23:15.094445  3712 sc2_env.py:462] Starting episode: 576
+I0513 16:23:57.513358  3712 sc2_env.py:632] Episode 576 finished after 14456 game steps. Outcome: [-1], reward: [-1], score: [5010]
+I0513 16:24:01.414763  3712 sc2_env.py:462] Starting episode: 577
+I0513 16:24:31.344244  3712 sc2_env.py:632] Episode 577 finished after 10016 game steps. Outcome: [-1], reward: [-1], score: [3165]
+I0513 16:24:35.146779  3712 sc2_env.py:462] Starting episode: 578
+I0513 16:25:23.921204  3712 sc2_env.py:632] Episode 578 finished after 13824 game steps. Outcome: [-1], reward: [-1], score: [3585]
+I0513 16:25:27.861881  3712 sc2_env.py:462] Starting episode: 579
+I0513 16:26:04.746766  3712 sc2_env.py:632] Episode 579 finished after 12592 game steps. Outcome: [-1], reward: [-1], score: [3535]
+I0513 16:26:08.773007  3712 sc2_env.py:462] Starting episode: 580
+I0513 16:27:17.385216  3712 sc2_env.py:632] Episode 580 finished after 18864 game steps. Outcome: [-1], reward: [-1], score: [4460]
+I0513 16:27:21.321893  3712 sc2_env.py:462] Starting episode: 581
+I0513 16:28:38.974932  3712 sc2_env.py:632] Episode 581 finished after 20336 game steps. Outcome: [-1], reward: [-1], score: [4400]
+I0513 16:28:42.958435  3712 sc2_env.py:462] Starting episode: 582
+I0513 16:29:24.275007  3712 sc2_env.py:632] Episode 582 finished after 13776 game steps. Outcome: [-1], reward: [-1], score: [3795]
+I0513 16:29:28.246857  3712 sc2_env.py:462] Starting episode: 583
+I0513 16:30:34.436142  3712 sc2_env.py:632] Episode 583 finished after 19664 game steps. Outcome: [-1], reward: [-1], score: [6070]
+I0513 16:30:38.305568  3712 sc2_env.py:462] Starting episode: 584
+I0513 16:31:54.411201  3712 sc2_env.py:632] Episode 584 finished after 22152 game steps. Outcome: [-1], reward: [-1], score: [5330]
+I0513 16:31:58.305934  3712 sc2_env.py:462] Starting episode: 585
+I0513 16:32:36.418819  3712 sc2_env.py:632] Episode 585 finished after 12896 game steps. Outcome: [-1], reward: [-1], score: [2395]
+I0513 16:32:40.342980  3712 sc2_env.py:462] Starting episode: 586
+I0513 16:33:26.507170  3712 sc2_env.py:632] Episode 586 finished after 15616 game steps. Outcome: [-1], reward: [-1], score: [4515]
+I0513 16:33:30.383782  3712 sc2_env.py:462] Starting episode: 587
+I0513 16:34:44.601936  3712 sc2_env.py:632] Episode 587 finished after 20520 game steps. Outcome: [-1], reward: [-1], score: [5460]
+I0513 16:34:48.469271  3712 sc2_env.py:462] Starting episode: 588
+I0513 16:35:47.174757  3712 sc2_env.py:632] Episode 588 finished after 16376 game steps. Outcome: [-1], reward: [-1], score: [5530]
+I0513 16:35:51.013695  3712 sc2_env.py:462] Starting episode: 589
+I0513 16:36:29.747668  3712 sc2_env.py:632] Episode 589 finished after 13328 game steps. Outcome: [-1], reward: [-1], score: [3390]
+I0513 16:36:33.643782  3712 sc2_env.py:462] Starting episode: 590
+I0513 16:37:15.704297  3712 sc2_env.py:632] Episode 590 finished after 14504 game steps. Outcome: [-1], reward: [-1], score: [3800]
+I0513 16:37:19.656961  3712 sc2_env.py:462] Starting episode: 591
+I0513 16:38:37.173973  3712 sc2_env.py:632] Episode 591 finished after 23800 game steps. Outcome: [-1], reward: [-1], score: [5125]
+I0513 16:38:41.108699  3712 sc2_env.py:462] Starting episode: 592
+I0513 16:39:56.869596  3712 sc2_env.py:632] Episode 592 finished after 21920 game steps. Outcome: [-1], reward: [-1], score: [5850]
+I0513 16:40:00.760037  3712 sc2_env.py:462] Starting episode: 593
+I0513 16:41:03.649902  3712 sc2_env.py:632] Episode 593 finished after 18920 game steps. Outcome: [-1], reward: [-1], score: [4450]
+I0513 16:41:07.560036  3712 sc2_env.py:462] Starting episode: 594
+I0513 16:42:05.058056  3712 sc2_env.py:632] Episode 594 finished after 16592 game steps. Outcome: [-1], reward: [-1], score: [5655]
+I0513 16:42:08.900202  3712 sc2_env.py:462] Starting episode: 595
+I0513 16:42:42.077694  3712 sc2_env.py:632] Episode 595 finished after 11696 game steps. Outcome: [-1], reward: [-1], score: [3570]
+I0513 16:42:45.941301  3712 sc2_env.py:462] Starting episode: 596
+I0513 16:43:26.823909  3712 sc2_env.py:632] Episode 596 finished after 13696 game steps. Outcome: [-1], reward: [-1], score: [3895]
+I0513 16:43:30.775973  3712 sc2_env.py:462] Starting episode: 597
+I0513 16:44:28.587652  3712 sc2_env.py:632] Episode 597 finished after 18624 game steps. Outcome: [-1], reward: [-1], score: [5405]
+I0513 16:44:32.516613  3712 sc2_env.py:462] Starting episode: 598
+I0513 16:45:22.847193  3712 sc2_env.py:632] Episode 598 finished after 15608 game steps. Outcome: [-1], reward: [-1], score: [4845]
+I0513 16:45:26.746294  3712 sc2_env.py:462] Starting episode: 599
+I0513 16:46:17.392786  3712 sc2_env.py:632] Episode 599 finished after 16832 game steps. Outcome: [-1], reward: [-1], score: [3960]
+I0513 16:46:21.336678  3712 sc2_env.py:462] Starting episode: 600
+I0513 16:47:22.255337  3712 sc2_env.py:632] Episode 600 finished after 17896 game steps. Outcome: [-1], reward: [-1], score: [4480]
+I0513 16:47:26.555096  3712 sc2_env.py:462] Starting episode: 601
+I0513 16:48:33.819290  3712 sc2_env.py:632] Episode 601 finished after 18296 game steps. Outcome: [-1], reward: [-1], score: [4990]
+I0513 16:48:38.092538  3712 sc2_env.py:462] Starting episode: 602
+I0513 16:49:40.556862  3712 sc2_env.py:632] Episode 602 finished after 18288 game steps. Outcome: [-1], reward: [-1], score: [5370]
+I0513 16:49:44.519646  3712 sc2_env.py:462] Starting episode: 603
+I0513 16:51:01.563745  3712 sc2_env.py:632] Episode 603 finished after 19896 game steps. Outcome: [-1], reward: [-1], score: [5560]
+I0513 16:51:05.478246  3712 sc2_env.py:462] Starting episode: 604
+I0513 16:52:29.451166  3712 sc2_env.py:632] Episode 604 finished after 23320 game steps. Outcome: [-1], reward: [-1], score: [4265]
+I0513 16:52:33.387178  3712 sc2_env.py:462] Starting episode: 605
+I0513 16:53:18.664340  3712 sc2_env.py:632] Episode 605 finished after 15152 game steps. Outcome: [-1], reward: [-1], score: [3200]
+I0513 16:53:22.780517  3712 sc2_env.py:462] Starting episode: 606
+I0513 16:54:04.677743  3712 sc2_env.py:632] Episode 606 finished after 12640 game steps. Outcome: [-1], reward: [-1], score: [3085]
+I0513 16:54:08.559892  3712 sc2_env.py:462] Starting episode: 607
+I0513 16:55:03.818109  3712 sc2_env.py:632] Episode 607 finished after 16800 game steps. Outcome: [-1], reward: [-1], score: [3840]
+I0513 16:55:07.784650  3712 sc2_env.py:462] Starting episode: 608
+I0513 16:56:15.968581  3712 sc2_env.py:632] Episode 608 finished after 20312 game steps. Outcome: [-1], reward: [-1], score: [6045]
+I0513 16:56:19.866984  3712 sc2_env.py:462] Starting episode: 609
+I0513 16:56:59.377254  3712 sc2_env.py:632] Episode 609 finished after 11984 game steps. Outcome: [-1], reward: [-1], score: [2670]
+I0513 16:57:03.294257  3712 sc2_env.py:462] Starting episode: 610
+I0513 16:58:22.774633  3712 sc2_env.py:632] Episode 610 finished after 20672 game steps. Outcome: [-1], reward: [-1], score: [5275]
+I0513 16:58:26.709088  3712 sc2_env.py:462] Starting episode: 611
+I0513 16:59:18.180673  3712 sc2_env.py:632] Episode 611 finished after 15184 game steps. Outcome: [-1], reward: [-1], score: [3245]
+I0513 16:59:22.129176  3712 sc2_env.py:462] Starting episode: 612
+I0513 17:00:35.415169  3712 sc2_env.py:632] Episode 612 finished after 19672 game steps. Outcome: [-1], reward: [-1], score: [5625]
+I0513 17:00:39.316812  3712 sc2_env.py:462] Starting episode: 613
+I0513 17:01:40.273836  3712 sc2_env.py:632] Episode 613 finished after 17168 game steps. Outcome: [-1], reward: [-1], score: [4935]
+I0513 17:01:44.208085  3712 sc2_env.py:462] Starting episode: 614
+I0513 17:02:41.521828  3712 sc2_env.py:632] Episode 614 finished after 17160 game steps. Outcome: [-1], reward: [-1], score: [5770]
+I0513 17:02:45.442030  3712 sc2_env.py:462] Starting episode: 615
+I0513 17:04:10.505304  3712 sc2_env.py:632] Episode 615 finished after 22552 game steps. Outcome: [-1], reward: [-1], score: [5565]
+I0513 17:04:14.545230  3712 sc2_env.py:462] Starting episode: 616
+I0513 17:05:00.081568  3712 sc2_env.py:632] Episode 616 finished after 15344 game steps. Outcome: [-1], reward: [-1], score: [3750]
+I0513 17:05:04.022731  3712 sc2_env.py:462] Starting episode: 617
+I0513 17:05:59.996684  3712 sc2_env.py:632] Episode 617 finished after 17464 game steps. Outcome: [-1], reward: [-1], score: [4810]
+I0513 17:06:03.881405  3712 sc2_env.py:462] Starting episode: 618
+I0513 17:07:09.124756  3712 sc2_env.py:632] Episode 618 finished after 19184 game steps. Outcome: [-1], reward: [-1], score: [5445]
+I0513 17:07:13.010964  3712 sc2_env.py:462] Starting episode: 619
+I0513 17:08:10.846207  3712 sc2_env.py:632] Episode 619 finished after 17616 game steps. Outcome: [-1], reward: [-1], score: [4675]
+I0513 17:08:14.749481  3712 sc2_env.py:462] Starting episode: 620
+I0513 17:09:27.134336  3712 sc2_env.py:632] Episode 620 finished after 21872 game steps. Outcome: [-1], reward: [-1], score: [5330]
+I0513 17:09:31.026759  3712 sc2_env.py:462] Starting episode: 621
+I0513 17:10:28.888081  3712 sc2_env.py:632] Episode 621 finished after 18096 game steps. Outcome: [-1], reward: [-1], score: [3370]
+I0513 17:10:32.718204  3712 sc2_env.py:462] Starting episode: 622
+I0513 17:11:27.314274  3712 sc2_env.py:632] Episode 622 finished after 17392 game steps. Outcome: [-1], reward: [-1], score: [3810]
+I0513 17:11:31.191162  3712 sc2_env.py:462] Starting episode: 623
+I0513 17:12:31.181434  3712 sc2_env.py:632] Episode 623 finished after 17440 game steps. Outcome: [-1], reward: [-1], score: [5235]
+I0513 17:12:35.090740  3712 sc2_env.py:462] Starting episode: 624
+I0513 17:13:16.393464  3712 sc2_env.py:632] Episode 624 finished after 12640 game steps. Outcome: [-1], reward: [-1], score: [3910]
+I0513 17:13:20.292710  3712 sc2_env.py:462] Starting episode: 625
+I0513 17:13:56.417157  3712 sc2_env.py:632] Episode 625 finished after 12056 game steps. Outcome: [-1], reward: [-1], score: [4175]
+I0513 17:14:00.300297  3712 sc2_env.py:462] Starting episode: 626
+I0513 17:14:41.663694  3712 sc2_env.py:632] Episode 626 finished after 13616 game steps. Outcome: [-1], reward: [-1], score: [3790]
+I0513 17:14:45.533672  3712 sc2_env.py:462] Starting episode: 627
+I0513 17:15:39.194372  3712 sc2_env.py:632] Episode 627 finished after 17352 game steps. Outcome: [-1], reward: [-1], score: [2545]
+I0513 17:15:43.071765  3712 sc2_env.py:462] Starting episode: 628
+I0513 17:16:28.256129  3712 sc2_env.py:632] Episode 628 finished after 13592 game steps. Outcome: [-1], reward: [-1], score: [4270]
+I0513 17:16:32.143263  3712 sc2_env.py:462] Starting episode: 629
+I0513 17:17:07.728171  3712 sc2_env.py:632] Episode 629 finished after 12608 game steps. Outcome: [-1], reward: [-1], score: [3010]
+I0513 17:17:11.488085  3712 sc2_env.py:462] Starting episode: 630
+I0513 17:18:21.679931  3712 sc2_env.py:632] Episode 630 finished after 19544 game steps. Outcome: [-1], reward: [-1], score: [5165]
+I0513 17:18:25.619484  3712 sc2_env.py:462] Starting episode: 631
+I0513 17:19:37.771671  3712 sc2_env.py:632] Episode 631 finished after 21560 game steps. Outcome: [-1], reward: [-1], score: [4620]
+I0513 17:19:41.655015  3712 sc2_env.py:462] Starting episode: 632
+I0513 17:20:46.940068  3712 sc2_env.py:632] Episode 632 finished after 19520 game steps. Outcome: [-1], reward: [-1], score: [5120]
+I0513 17:20:50.886477  3712 sc2_env.py:462] Starting episode: 633
+I0513 17:21:32.526956  3712 sc2_env.py:632] Episode 633 finished after 14064 game steps. Outcome: [-1], reward: [-1], score: [3700]
+I0513 17:21:36.455634  3712 sc2_env.py:462] Starting episode: 634
+I0513 17:22:19.103949  3712 sc2_env.py:632] Episode 634 finished after 12608 game steps. Outcome: [-1], reward: [-1], score: [4170]
+I0513 17:22:23.007139  3712 sc2_env.py:462] Starting episode: 635
+I0513 17:24:04.330067  3712 sc2_env.py:632] Episode 635 finished after 25816 game steps. Outcome: [-1], reward: [-1], score: [5795]
+I0513 17:24:08.249221  3712 sc2_env.py:462] Starting episode: 636
+I0513 17:25:19.412894  3712 sc2_env.py:632] Episode 636 finished after 19592 game steps. Outcome: [-1], reward: [-1], score: [4860]
+I0513 17:25:23.348136  3712 sc2_env.py:462] Starting episode: 637
+I0513 17:26:12.358408  3712 sc2_env.py:632] Episode 637 finished after 14080 game steps. Outcome: [-1], reward: [-1], score: [3480]
+I0513 17:26:16.303436  3712 sc2_env.py:462] Starting episode: 638
+I0513 17:27:13.264517  3712 sc2_env.py:632] Episode 638 finished after 17472 game steps. Outcome: [-1], reward: [-1], score: [4125]
+I0513 17:27:17.120976  3712 sc2_env.py:462] Starting episode: 639
+I0513 17:28:25.955736  3712 sc2_env.py:632] Episode 639 finished after 20888 game steps. Outcome: [-1], reward: [-1], score: [7320]
+I0513 17:28:29.762897  3712 sc2_env.py:462] Starting episode: 640
+I0513 17:29:26.586179  3712 sc2_env.py:632] Episode 640 finished after 18320 game steps. Outcome: [-1], reward: [-1], score: [3610]
+I0513 17:29:30.498637  3712 sc2_env.py:462] Starting episode: 641
+I0513 17:30:25.250061  3712 sc2_env.py:632] Episode 641 finished after 16968 game steps. Outcome: [-1], reward: [-1], score: [4435]
+I0513 17:30:29.167081  3712 sc2_env.py:462] Starting episode: 642
+I0513 17:31:14.631789  3712 sc2_env.py:632] Episode 642 finished after 13368 game steps. Outcome: [-1], reward: [-1], score: [4200]
+I0513 17:31:18.555257  3712 sc2_env.py:462] Starting episode: 643
+I0513 17:31:54.678505  3712 sc2_env.py:632] Episode 643 finished after 12384 game steps. Outcome: [-1], reward: [-1], score: [4310]
+I0513 17:31:58.585313  3712 sc2_env.py:462] Starting episode: 644
+I0513 17:33:09.209786  3712 sc2_env.py:632] Episode 644 finished after 19232 game steps. Outcome: [-1], reward: [-1], score: [4930]
+I0513 17:33:13.097776  3712 sc2_env.py:462] Starting episode: 645
+I0513 17:33:50.328762  3712 sc2_env.py:632] Episode 645 finished after 13264 game steps. Outcome: [-1], reward: [-1], score: [3600]
+I0513 17:33:54.225816  3712 sc2_env.py:462] Starting episode: 646
+I0513 17:34:55.509598  3712 sc2_env.py:632] Episode 646 finished after 19064 game steps. Outcome: [-1], reward: [-1], score: [6265]
+I0513 17:34:59.391144  3712 sc2_env.py:462] Starting episode: 647
+I0513 17:36:11.316885  3712 sc2_env.py:632] Episode 647 finished after 20640 game steps. Outcome: [-1], reward: [-1], score: [4510]
+I0513 17:36:15.258787  3712 sc2_env.py:462] Starting episode: 648
+I0513 17:37:01.448770  3712 sc2_env.py:632] Episode 648 finished after 15496 game steps. Outcome: [-1], reward: [-1], score: [4105]
+I0513 17:37:05.361139  3712 sc2_env.py:462] Starting episode: 649
+I0513 17:37:51.179071  3712 sc2_env.py:632] Episode 649 finished after 15184 game steps. Outcome: [-1], reward: [-1], score: [3385]
+I0513 17:37:55.055891  3712 sc2_env.py:462] Starting episode: 650
+I0513 17:38:35.105229  3712 sc2_env.py:632] Episode 650 finished after 13744 game steps. Outcome: [-1], reward: [-1], score: [3190]
+I0513 17:38:39.010498  3712 sc2_env.py:462] Starting episode: 651
+I0513 17:39:26.710936  3712 sc2_env.py:632] Episode 651 finished after 15128 game steps. Outcome: [-1], reward: [-1], score: [3320]
+I0513 17:39:30.715018  3712 sc2_env.py:462] Starting episode: 652
+I0513 17:40:36.648222  3712 sc2_env.py:632] Episode 652 finished after 17800 game steps. Outcome: [-1], reward: [-1], score: [4975]
+I0513 17:40:40.567378  3712 sc2_env.py:462] Starting episode: 653
+I0513 17:41:46.440621  3712 sc2_env.py:632] Episode 653 finished after 20088 game steps. Outcome: [-1], reward: [-1], score: [5285]
+I0513 17:41:50.318739  3712 sc2_env.py:462] Starting episode: 654
+I0513 17:42:40.416840  3712 sc2_env.py:632] Episode 654 finished after 16744 game steps. Outcome: [-1], reward: [-1], score: [2840]
+I0513 17:42:44.414279  3712 sc2_env.py:462] Starting episode: 655
+I0513 17:43:35.285623  3712 sc2_env.py:632] Episode 655 finished after 16152 game steps. Outcome: [-1], reward: [-1], score: [5795]
+I0513 17:43:39.229408  3712 sc2_env.py:462] Starting episode: 656
+I0513 17:44:51.091093  3712 sc2_env.py:632] Episode 656 finished after 20824 game steps. Outcome: [-1], reward: [-1], score: [4140]
+I0513 17:44:54.978180  3712 sc2_env.py:462] Starting episode: 657
+I0513 17:45:33.296514  3712 sc2_env.py:632] Episode 657 finished after 12920 game steps. Outcome: [-1], reward: [-1], score: [2665]
+I0513 17:45:37.248073  3712 sc2_env.py:462] Starting episode: 658
+I0513 17:46:37.980574  3712 sc2_env.py:632] Episode 658 finished after 18336 game steps. Outcome: [-1], reward: [-1], score: [5495]
+I0513 17:46:42.013265  3712 sc2_env.py:462] Starting episode: 659
+I0513 17:47:44.617696  3712 sc2_env.py:632] Episode 659 finished after 18800 game steps. Outcome: [-1], reward: [-1], score: [5560]
+I0513 17:47:48.527917  3712 sc2_env.py:462] Starting episode: 660
+I0513 17:48:28.706721  3712 sc2_env.py:632] Episode 660 finished after 13736 game steps. Outcome: [-1], reward: [-1], score: [4745]
+I0513 17:48:32.504028  3712 sc2_env.py:462] Starting episode: 661
+I0513 17:49:51.687426  3712 sc2_env.py:632] Episode 661 finished after 21000 game steps. Outcome: [-1], reward: [-1], score: [3415]
+I0513 17:49:55.613911  3712 sc2_env.py:462] Starting episode: 662
+I0513 17:50:39.327240  3712 sc2_env.py:632] Episode 662 finished after 13552 game steps. Outcome: [-1], reward: [-1], score: [4685]
+I0513 17:50:43.190519  3712 sc2_env.py:462] Starting episode: 663
+I0513 17:52:34.323859  3712 sc2_env.py:632] Episode 663 finished after 28376 game steps. Outcome: [-1], reward: [-1], score: [7610]
+I0513 17:52:38.194153  3712 sc2_env.py:462] Starting episode: 664
+I0513 17:53:39.630638  3712 sc2_env.py:632] Episode 664 finished after 17168 game steps. Outcome: [-1], reward: [-1], score: [4055]
+I0513 17:53:43.526121  3712 sc2_env.py:462] Starting episode: 665
+I0513 17:54:42.029162  3712 sc2_env.py:632] Episode 665 finished after 17056 game steps. Outcome: [-1], reward: [-1], score: [5550]
+I0513 17:54:45.862432  3712 sc2_env.py:462] Starting episode: 666
+I0513 17:55:47.784694  3712 sc2_env.py:632] Episode 666 finished after 18448 game steps. Outcome: [-1], reward: [-1], score: [3965]
+I0513 17:55:51.701714  3712 sc2_env.py:462] Starting episode: 667
+I0513 17:56:52.032304  3712 sc2_env.py:632] Episode 667 finished after 18632 game steps. Outcome: [-1], reward: [-1], score: [5670]
+I0513 17:56:55.974065  3712 sc2_env.py:462] Starting episode: 668
+I0513 17:57:55.241065  3712 sc2_env.py:632] Episode 668 finished after 19184 game steps. Outcome: [-1], reward: [-1], score: [4300]
+I0513 17:57:59.179239  3712 sc2_env.py:462] Starting episode: 669
+I0513 17:58:39.532574  3712 sc2_env.py:632] Episode 669 finished after 13512 game steps. Outcome: [-1], reward: [-1], score: [3840]
+I0513 17:58:43.397279  3712 sc2_env.py:462] Starting episode: 670
+I0513 17:59:24.236854  3712 sc2_env.py:632] Episode 670 finished after 14176 game steps. Outcome: [-1], reward: [-1], score: [3885]
+I0513 17:59:28.118880  3712 sc2_env.py:462] Starting episode: 671
+I0513 18:00:32.004854  3712 sc2_env.py:632] Episode 671 finished after 19440 game steps. Outcome: [-1], reward: [-1], score: [4535]
+I0513 18:00:35.944015  3712 sc2_env.py:462] Starting episode: 672
+I0513 18:01:36.198743  3712 sc2_env.py:632] Episode 672 finished after 17440 game steps. Outcome: [-1], reward: [-1], score: [5110]
+I0513 18:01:40.140097  3712 sc2_env.py:462] Starting episode: 673
+I0513 18:02:18.635705  3712 sc2_env.py:632] Episode 673 finished after 12432 game steps. Outcome: [-1], reward: [-1], score: [3475]
+I0513 18:02:22.493924  3712 sc2_env.py:462] Starting episode: 674
+I0513 18:03:18.748685  3712 sc2_env.py:632] Episode 674 finished after 18016 game steps. Outcome: [-1], reward: [-1], score: [4230]
+I0513 18:03:22.663459  3712 sc2_env.py:462] Starting episode: 675
+Terminate batch job (Y/N)? Y
+PS D:\Software\pysc2\scripts>

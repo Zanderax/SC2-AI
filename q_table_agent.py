@@ -1,5 +1,7 @@
 # Following Tutorial from here https://chatbotslife.com/building-a-smart-pysc2-agent-cdc269cb095d
 
+import logging
+import os
 import random
 import math
 
@@ -15,6 +17,8 @@ import action_constants as act
 import ids.unit_typeid as uid
 
 from constants import *
+
+log = logging.getLogger("PythonCode")
 
 bot_actions = [
     botact.DO_NOTHING,
@@ -44,15 +48,20 @@ bot_actions = [
     botact.ATTACK_3_1,
     botact.ATTACK_3_2,
     botact.ATTACK_3_3,
-    # botact.SELECT_COMMANDCENTRE,
-    # botact.BUILD_SVC,
+    botact.SELECT_COMMANDCENTRE,
+    botact.BUILD_SVC,
+    botact.BUILD_REFINERY
 ]
+
+current_wins = 0
+current_losses = 0
+current_draws = 0
 
 
 
 # Taken from https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow
 class QLearningTable:
-    def __init__(self, actions, learning_rate=0.01, reward_decay=0.9, e_greedy=0.9):
+    def __init__(self, actions, learning_rate=0.1, reward_decay=0.3, e_greedy=0.9):
         self.actions = actions
         self.lr = learning_rate
         self.gamma = reward_decay
@@ -105,6 +114,8 @@ class QTableAgent(base_agent.BaseAgent):
         self.previous_state = None
         self.previous_minerals = 0
         self.previous_food_used = 0
+
+        self.next_action = None
     
     def step(self, obs):
         super(QTableAgent, self).step(obs)
@@ -137,21 +148,32 @@ class QTableAgent(base_agent.BaseAgent):
             army_supply,
         ]
 
+        if self.next_action:
+            current_action = botact.BUILD_MARINE( obs, self.base_top_left )
+            if current_action:
+                return current_action
+
+        if self.previous_action is None:
+            try:
+                self.qlearn.q_table = pd.read_pickle(DATA_FILE, 'gzip') 
+            except:
+                pass
+
         if self.previous_action is not None:
             reward = 0
                 
             if killed_unit_score > self.previous_killed_unit_score:
-                print( "Killed unit = " + str(killed_unit_score))
+                # print( "Killed unit = " + str(killed_unit_score))
                 reward += KILL_UNIT_REWARD
                     
             if killed_building_score > self.previous_killed_building_score:
-                print( "Killed building  = " + str(killed_building_score))
+                # print( "Killed building  = " + str(killed_building_score))
                 reward += KILL_BUILDING_REWARD
 
             # Reward and punish when gaining/losing army units
-            if food_used != self.previous_food_used:
-                print( "Food used by army = " + str(food_used))
-                reward += FOOD_REWARD * ( food_used - self.previous_food_used )
+            if food_used > self.previous_food_used:
+                # print( "Food used by army = " + str(food_used))
+                reward += FOOD_REWARD
             
             # if minerals > self.previous_minerals:
             #     reward += ( minerals - self.previous_minerals ) / 10
@@ -159,7 +181,21 @@ class QTableAgent(base_agent.BaseAgent):
             self.qlearn.learn(str(self.previous_state), self.previous_action, reward, str(current_state))
 
             if obs.last():
-                self.qlearn.q_table.to_pickle(DATA_FILE + '.gz', 'gzip')
+                global current_wins, current_losses, current_draws
+                f=open("results.txt", "a")
+                if obs.reward == 1:
+                    current_wins += 1
+                    f.write("1")
+                if obs.reward == -1:
+                    current_losses += 1
+                    f.write("-1")
+                if obs.reward == 0:
+                    current_draws += 1
+                    f.write("0")
+                log.info("Wins - {} Losses - {} Draws - {}".format(current_wins, current_losses, current_draws))
+                f.write(",{},{},{}\r\n".format(current_wins, current_losses, current_draws))
+                f.close()
+                self.qlearn.q_table.to_pickle(DATA_FILE, 'gzip')
                 
         # Update qtable and decide on action
         rl_action = self.qlearn.choose_action(str(current_state))
@@ -174,9 +210,11 @@ class QTableAgent(base_agent.BaseAgent):
         self.previous_food_used = food_used
 
         # Create action object to return to pysc2
-        res = action( obs, self.base_top_left )
-        if res:
-            return res
+        current_action = action( obs, self.base_top_left )
+        if current_action:
+            if bot_actions[rl_action] == botact.SELECT_BARRACKS:
+                self.next_action = botact.BUILD_MARINE
+            return current_action
         return actions.FunctionCall(act.NO_OP, [])  
 
 
