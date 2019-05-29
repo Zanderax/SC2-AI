@@ -50,7 +50,9 @@ bot_actions = [
     botact.ATTACK_3_3,
     botact.SELECT_COMMANDCENTRE,
     botact.BUILD_SVC,
-    botact.BUILD_REFINERY
+    botact.BUILD_REFINERY,
+    botact.ASSIGN_SVC_TO_REFINERY,
+    botact.ASSIGN_SVC_TO_MINERALS
 ]
 
 current_wins = 0

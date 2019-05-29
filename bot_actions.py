@@ -79,11 +79,31 @@ def BUILD_REFINERY( obs, base_top_left ):
         unit_type = obs.observation['feature_screen'][UNIT_TYPE]
         unit_y, unit_x = (unit_type == uid.VESPENEGEYSER).nonzero()
         if unit_y.any():
-                # Grab a random co-ordinate to select only one refinery
-                i = random.randint(0, len(unit_y) - 1)
-                target = [unit_x[i], unit_y[i]]
-                return actions.FunctionCall(act.BUILD_REFINERY_SCREEN, [NOT_QUEUED, target])
+            # Grab a random co-ordinate to select only one vespene geyser
+            i = random.randint(0, len(unit_y) - 1)
+            target = [unit_x[i], unit_y[i]]
+            return actions.FunctionCall(act.BUILD_REFINERY_SCREEN, [NOT_QUEUED, target])
 
+def ASSIGN_SVC_TO_REFINERY( obs, base_top_left ):
+    if act.HARVEST_GATHER_SCREEN in obs.observation['available_actions']:
+        unit_type = obs.observation['feature_screen'][UNIT_TYPE]
+        unit_y, unit_x = (unit_type == uid.REFINERY).nonzero()
+        if unit_y.any():
+            # Grab a random co-ordinate to select only one refinery
+            i = random.randint(0, len(unit_y) - 1)
+            target = [unit_x[i], unit_y[i]]
+            return actions.FunctionCall(act.HARVEST_GATHER_SCREEN, [NOT_QUEUED, target])
+
+def ASSIGN_SVC_TO_MINERALS( obs, base_top_left ):
+    if act.HARVEST_GATHER_SCREEN in obs.observation['available_actions']:
+        unit_type = obs.observation['feature_screen'][UNIT_TYPE]
+        unit_y, unit_x = (unit_type == uid.MINERALFIELD).nonzero()
+        if unit_y.any():
+            # Grab a random co-ordinate to select only one minerals
+            i = random.randint(0, len(unit_y) - 1)
+            target = [unit_x[i], unit_y[i]]
+            return actions.FunctionCall(act.HARVEST_GATHER_SCREEN, [NOT_QUEUED, target])
+    
 
 def SELECT_BARRACKS( obs, base_top_left ):
     return select_building( obs, uid.BARRACKS )
