@@ -103,13 +103,24 @@ def ASSIGN_SVC_TO_MINERALS( obs, base_top_left ):
             i = random.randint(0, len(unit_y) - 1)
             target = [unit_x[i], unit_y[i]]
             return actions.FunctionCall(act.HARVEST_GATHER_SCREEN, [NOT_QUEUED, target])
-    
 
+
+def BUILD_TECHLAB( obs, base_top_left ):
+    return action_if_avalible( obs, act.BUILD_TECHLAB_SCREEN, [QUEUED])
+    
+    
 def SELECT_BARRACKS( obs, base_top_left ):
     return select_building( obs, uid.BARRACKS )
 
 def BUILD_MARINE( obs, base_top_left ):
     return action_if_avalible( obs, act.TRAIN_MARINE_QUICK, [QUEUED])
+
+def BUILD_MARAUDER( obs, base_top_left ):
+    return action_if_avalible( obs, act.TRAIN_MARAUDER_QUICK, [QUEUED])
+
+def BUILD_REAPER( obs, base_top_left ):
+    return action_if_avalible( obs, act.TRAIN_REAPER_QUICK, [QUEUED])
+    
 
 def SELECT_COMMANDCENTRE( obs, base_top_left ):
     return select_building( obs, uid.COMMANDCENTER )

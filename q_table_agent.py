@@ -150,10 +150,10 @@ class QTableAgent(base_agent.BaseAgent):
             army_supply,
         ]
 
-        if self.next_action:
-            current_action = botact.BUILD_MARINE( obs, self.base_top_left )
-            if current_action:
-                return current_action
+        # if self.next_action:
+        #     current_action = botact.BUILD_MARINE( obs, self.base_top_left )
+        #     if current_action:
+        #         return current_action
 
         if self.previous_action is None:
             try:

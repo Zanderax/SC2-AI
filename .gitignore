@@ -1,3 +1,6 @@
 *.pyc
 results/results_1.txt
 agent_data/*.gz
+results.txt
+agent_data.gz
+out.txt
