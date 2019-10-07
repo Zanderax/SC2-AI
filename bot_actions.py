@@ -30,10 +30,13 @@ def select_building( obs, building_id ):
         return actions.FunctionCall(act.SELECT_POINT, [NOT_QUEUED, target])
 
 def attack( obs, x, y, base_top_left ):
-    if obs.observation['single_select'][0][0] != uid.SCV:
-        x = x * 16 + 8
-        y = y * 16 + 8
-        return action_if_avalible( obs, act.ATTACK_MINIMAP, [NOT_QUEUED, transformLocation(int(x), int(y), base_top_left)])
+    x = x * 16 + 8
+    y = y * 16 + 8
+    location = transformLocation(int(x), int(y),
+    return [
+        SELECT_ARMY( obs, base_top_left ),
+        action_if_avalible( obs, act.ATTACK_MINIMAP, [NOT_QUEUED, location, base_top_left)])
+    ]
 
 
 def action_if_avalible( obs, action, queue ):
@@ -63,7 +66,7 @@ def BUILD_SUPPLY_DEPOT( obs, base_top_left ):
             target = transformDistance(int(unit_x.mean()), random.randint(0,20), int(unit_y.mean()), random.randint(10,30), base_top_left)
         
             return actions.FunctionCall(act.BUILD_SUPPLYDEPOT_SCREEN, [NOT_QUEUED, target])
-        
+
 def BUILD_BARRACKS( obs, base_top_left ):
     if act.BUILD_BARRACKS_SCREEN in obs.observation['available_actions']:
         unit_type = obs.observation['feature_screen'][UNIT_TYPE]
@@ -106,14 +109,17 @@ def ASSIGN_SVC_TO_MINERALS( obs, base_top_left ):
 
 
 def BUILD_TECHLAB( obs, base_top_left ):
-    return action_if_avalible( obs, act.BUILD_TECHLAB_SCREEN, [QUEUED])
-    
-    
+    return [ select_building( obs, uid.BARRACKS ),
+        actions.FunctionCall( act.BUILD_TECHLAB_SCREEN, [QUEUED])
+    ]
+
 def SELECT_BARRACKS( obs, base_top_left ):
     return select_building( obs, uid.BARRACKS )
 
 def BUILD_MARINE( obs, base_top_left ):
-    return action_if_avalible( obs, act.TRAIN_MARINE_QUICK, [QUEUED])
+    return [ select_building( obs, uid.BARRACKS ),
+        actions.FunctionCall( act.TRAIN_MARINE_QUICK, [QUEUED])
+    ]
 
 def BUILD_MARAUDER( obs, base_top_left ):
     return action_if_avalible( obs, act.TRAIN_MARAUDER_QUICK, [QUEUED])

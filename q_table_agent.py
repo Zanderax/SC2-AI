@@ -1,9 +1,10 @@
 # Following Tutorial from here https://chatbotslife.com/building-a-smart-pysc2-agent-cdc269cb095d
 
 import logging
-import os
-import random
 import math
+import os
+import queue
+import random
 
 import numpy as np
 import pandas as pd
@@ -61,7 +62,7 @@ current_draws = 0
 
 
 
-# Taken from https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow
+# QLearningTable Taken from https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow
 class QLearningTable:
     def __init__(self, actions, learning_rate=0.1, reward_decay=0.3, e_greedy=0.9):
         self.actions = actions
@@ -102,7 +103,6 @@ class QLearningTable:
             # append new state to q table
             self.q_table = self.q_table.append(pd.Series([0] * len(self.actions), index=self.q_table.columns, name=state))
 
-
 class QTableAgent(base_agent.BaseAgent):
     def __init__(self):
         super(QTableAgent, self).__init__()
@@ -117,10 +117,23 @@ class QTableAgent(base_agent.BaseAgent):
         self.previous_minerals = 0
         self.previous_food_used = 0
 
-        self.next_action = None
+        self.action_queue = queue.Queue()
+
+        self.actions_in_step = [ actions.FunctionCall(act.NO_OP, []), actions.FunctionCall(act.NO_OP, []), actions.FunctionCall(act.NO_OP, []) ]
+
+        self.current_action_step = -1
     
     def step(self, obs):
         super(QTableAgent, self).step(obs)
+
+        if not self.action_queue.empty():
+            log.info("second action")
+            action = action_queue.get()
+            res = action( obs, self.base_top_left )
+            if res:
+                return res
+            return actions.FunctionCall(act.NO_OP, [])  
+
 
         player_y, player_x = (obs.observation['feature_minimap'][PLAYER_RELATIVE] == PLAYER_SELF).nonzero()
         self.base_top_left = 1 if player_y.any() and player_y.mean() <= 31 else 0
@@ -149,11 +162,6 @@ class QTableAgent(base_agent.BaseAgent):
             supply_limit,
             army_supply,
         ]
-
-        # if self.next_action:
-        #     current_action = botact.BUILD_MARINE( obs, self.base_top_left )
-        #     if current_action:
-        #         return current_action
 
         if self.previous_action is None:
             try:
@@ -201,7 +209,16 @@ class QTableAgent(base_agent.BaseAgent):
                 
         # Update qtable and decide on action
         rl_action = self.qlearn.choose_action(str(current_state))
-        action = bot_actions[rl_action]
+        selected_actions = bot_actions[rl_action]
+
+        try:
+            for action in selected_actions:
+                self.action_queue.put(action)
+        # if only returning one action
+        except TypeError:
+            self.action_queue.put(selected_actions)
+
+        action = self.action_queue.get()
 
         # Update scores
         self.previous_killed_unit_score = killed_unit_score
@@ -212,11 +229,10 @@ class QTableAgent(base_agent.BaseAgent):
         self.previous_food_used = food_used
 
         # Create action object to return to pysc2
-        current_action = action( obs, self.base_top_left )
-        if current_action:
-            if bot_actions[rl_action] == botact.SELECT_BARRACKS:
-                self.next_action = botact.BUILD_MARINE
-            return current_action
+
+        res = action( obs, self.base_top_left )
+        if res:
+            return res
         return actions.FunctionCall(act.NO_OP, [])  
 
 
